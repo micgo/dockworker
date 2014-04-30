@@ -11,6 +11,7 @@
       "type": "shell",
       "inline": ["sudo apt-get update",
                 "sudo apt-get -y install curl",
+                "sudo apt-get install git-core",
                 "cd /tmp",
                 "curl -LO https://www.getchef.com/chef/install.sh && sudo bash ./install.sh -v 11.12.2",
                 "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
