@@ -17,8 +17,7 @@
       "type": "chef-solo",
       "cookbook_paths": ["/tmp/cookbooks"],
       "json": {
-        "name": "ubuntu_base",
-        "run_list": []
+        "name": "ubuntu_base"
       }
     },
     {
