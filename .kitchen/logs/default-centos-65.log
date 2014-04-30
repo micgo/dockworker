@@ -1,0 +1,859 @@
+I, [2014-04-29T09:49:18.982924 #1142]  INFO -- default-centos-65: -----> Creating <default-centos-65>...
+I, [2014-04-29T09:49:20.501031 #1142]  INFO -- default-centos-65: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-04-29T09:49:20.759216 #1142]  INFO -- default-centos-65: ==> default: Box 'opscode-centos-6.5' could not be found. Attempting to find and install...
+I, [2014-04-29T09:49:20.759335 #1142]  INFO -- default-centos-65:     default: Box Provider: virtualbox
+I, [2014-04-29T09:49:20.759539 #1142]  INFO -- default-centos-65:     default: Box Version: >= 0
+I, [2014-04-29T09:49:21.969811 #1142]  INFO -- default-centos-65: ==> default: Adding box 'opscode-centos-6.5' (v0) for provider: virtualbox
+I, [2014-04-29T09:49:21.975580 #1142]  INFO -- default-centos-65:     default: Downloading: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box
+[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 115k/s, Estimated time remaining: 0:56:46)[K    default: Progress: 1% (Rate: 2334k/s, Estimated time remaining: 0:02:46)[K    default: Progress: 2% (Rate: 3539k/s, Estimated time remaining: 0:01:48)[K    default: Progress: 4% (Rate: 4090k/s, Estimated time remaining: 0:01:32)[K    default: Progress: 5% (Rate: 4556k/s, Estimated time remaining: 0:01:23)[K    default: Progress: 7% (Rate: 5710k/s, Estimated time remaining: 0:01:17)[K    default: Progress: 8% (Rate: 5943k/s, Estimated time remaining: 0:01:13)[K    default: Progress: 9% (Rate: 5098k/s, Estimated time remaining: 0:01:19)[K    default: Progress: 9% (Rate: 4582k/s, Estimated time remaining: 0:01:21)[K    default: Progress: 11% (Rate: 4525k/s, Estimated time remaining: 0:01:17)[K    default: Progress: 12% (Rate: 4527k/s, Estimated time remaining: 0:01:13)[K    default: Progress: 14% (Rate: 4526k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 15% (Rate: 4920k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 16% (Rate: 5442k/s, Estimated time remaining: 0:01:08)[K    default: Progress: 18% (Rate: 5529k/s, Estimated time remaining: 0:01:06)[K    default: Progress: 19% (Rate: 5122k/s, Estimated time remaining: 0:01:06)[K    default: Progress: 20% (Rate: 4970k/s, Estimated time remaining: 0:01:04)[K    default: Progress: 22% (Rate: 5293k/s, Estimated time remaining: 0:01:03)[K    default: Progress: 23% (Rate: 5215k/s, Estimated time remaining: 0:01:01)[K    default: Progress: 24% (Rate: 5083k/s, Estimated time remaining: 0:01:00)[K    default: Progress: 26% (Rate: 5375k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 27% (Rate: 5491k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 29% (Rate: 5623k/s, Estimated time remaining: 0:00:55)[K    default: Progress: 30% (Rate: 5746k/s, Estimated time remaining: 0:00:53)[K    default: Progress: 32% (Rate: 5851k/s, Estimated time remaining: 0:00:52)[K    default: Progress: 33% (Rate: 5966k/s, Estimated time remaining: 0:00:50)[K    default: Progress: 35% (Rate: 5958k/s, Estimated time remaining: 0:00:49)[K    default: Progress: 36% (Rate: 5961k/s, Estimated time remaining: 0:00:47)[K    default: Progress: 38% (Rate: 5967k/s, Estimated time remaining: 0:00:46)[K    default: Progress: 39% (Rate: 5994k/s, Estimated time remaining: 0:00:45)[K    default: Progress: 41% (Rate: 5985k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 42% (Rate: 6012k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 44% (Rate: 5997k/s, Estimated time remaining: 0:00:41)[K    default: Progress: 45% (Rate: 5769k/s, Estimated time remaining: 0:00:40)[K    default: Progress: 47% (Rate: 5570k/s, Estimated time remaining: 0:00:39)[K    default: Progress: 48% (Rate: 5568k/s, Estimated time remaining: 0:00:38)[K    default: Progress: 50% (Rate: 5577k/s, Estimated time remaining: 0:00:36)[K    default: Progress: 51% (Rate: 5524k/s, Estimated time remaining: 0:00:35)[K    default: Progress: 53% (Rate: 5744k/s, Estimated time remaining: 0:00:34)[K    default: Progress: 54% (Rate: 5915k/s, Estimated time remaining: 0:00:33)[K    default: Progress: 56% (Rate: 5886k/s, Estimated time remaining: 0:00:32)[K    default: Progress: 57% (Rate: 5892k/s, Estimated time remaining: 0:00:31)[K    default: Progress: 59% (Rate: 5948k/s, Estimated time remaining: 0:00:29)[K    default: Progress: 60% (Rate: 5952k/s, Estimated time remaining: 0:00:28)[K    default: Progress: 61% (Rate: 5783k/s, Estimated time remaining: 0:00:27)[K    default: Progress: 62% (Rate: 5140k/s, Estimated time remaining: 0:00:27)[K    default: Progress: 63% (Rate: 4968k/s, Estimated time remaining: 0:00:26)[K    default: Progress: 65% (Rate: 4823k/s, Estimated time remaining: 0:00:25)[K    default: Progress: 66% (Rate: 4674k/s, Estimated time remaining: 0:00:24)[K    default: Progress: 67% (Rate: 4700k/s, Estimated time remaining: 0:00:23)[K    default: Progress: 69% (Rate: 5275k/s, Estimated time remaining: 0:00:22)[K    default: Progress: 70% (Rate: 5395k/s, Estimated time remaining: 0:00:21)[K    default: Progress: 72% (Rate: 5551k/s, Estimated time remaining: 0:00:20)[K    default: Progress: 73% (Rate: 5620k/s, Estimated time remaining: 0:00:19)[K    default: Progress: 74% (Rate: 5484k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 76% (Rate: 5591k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 77% (Rate: 5637k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 79% (Rate: 5629k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 80% (Rate: 5705k/s, Estimated time remaining: 0:00:13)[K    default: Progress: 82% (Rate: 5976k/s, Estimated time remaining: 0:00:12)[K    default: Progress: 83% (Rate: 5991k/s, Estimated time remaining: 0:00:11)[K    default: Progress: 85% (Rate: 6001k/s, Estimated time remaining: 0:00:10)[K    default: Progress: 86% (Rate: 5967k/s, Estimated time remaining: 0:00:09)[K    default: Progress: 88% (Rate: 5972k/s, Estimated time remaining: 0:00:08)[K    default: Progress: 89% (Rate: 5967k/s, Estimated time remaining: 0:00:07)[K    default: Progress: 91% (Rate: 5959k/s, Estimated time remaining: 0:00:06)[K    default: Progress: 93% (Rate: 5955k/s, Estimated time remaining: 0:00:05)[K    default: Progress: 94% (Rate: 5573k/s, Estimated time remaining: 0:00:04)[K    default: Progress: 95% (Rate: 5419k/s, Estimated time remaining: 0:00:03)[K    default: Progress: 96% (Rate: 5301k/s, Estimated time remaining: 0:00:02)[K    default: Progress: 98% (Rate: 5171k/s, Estimated time remaining: 0:00:01)[K    default: Progress: 99% (Rate: 5058k/s, Estimated time remaining: --:--:--)[KI, [2014-04-29T09:50:37.395096 #1142]  INFO -- default-centos-65: ==> default: Successfully added box 'opscode-centos-6.5' (v0) for 'virtualbox'!
+I, [2014-04-29T09:50:37.465152 #1142]  INFO -- default-centos-65: ==> default: Importing base box 'opscode-centos-6.5'...
+[KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 80%[KProgress: 90%[KI, [2014-04-29T09:50:45.220647 #1142]  INFO -- default-centos-65: ==> default: Matching MAC address for NAT networking...
+I, [2014-04-29T09:50:45.758487 #1142]  INFO -- default-centos-65: ==> default: Setting the name of the VM: default-centos-65_default_1398790245728_36303
+I, [2014-04-29T09:50:46.421037 #1142]  INFO -- default-centos-65: ==> default: Clearing any previously set network interfaces...
+I, [2014-04-29T09:50:46.458685 #1142]  INFO -- default-centos-65: ==> default: Preparing network interfaces based on configuration...
+I, [2014-04-29T09:50:46.459472 #1142]  INFO -- default-centos-65:     default: Adapter 1: nat
+I, [2014-04-29T09:50:46.506396 #1142]  INFO -- default-centos-65: ==> default: Forwarding ports...
+I, [2014-04-29T09:50:46.571304 #1142]  INFO -- default-centos-65:     default: 22 => 2222 (adapter 1)
+I, [2014-04-29T09:50:48.904441 #1142]  INFO -- default-centos-65: ==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...I, [2014-04-29T09:50:49.669106 #1142]  INFO -- default-centos-65:     default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrantI, [2014-04-29T09:50:49.669455 #1142]  INFO -- default-centos-65:     default: SSH auth method: private key
+I, [2014-04-29T09:51:04.780848 #1142]  INFO -- default-centos-65:     default: Warning: Connection timeout. Retrying...
+I, [2014-04-29T09:51:12.261772 #1142]  INFO -- default-centos-65: ==> default: Machine booted and ready!
+I, [2014-04-29T09:51:12.262389 #1142]  INFO -- default-centos-65: ==> default: Checking for guest additions in VM...
+I, [2014-04-29T09:51:12.288124 #1142]  INFO -- default-centos-65: ==> default: Setting hostname...
+I, [2014-04-29T09:51:18.124166 #1142]  INFO -- default-centos-65: Vagrant instance <default-centos-65> created.
+I, [2014-04-29T09:51:18.126874 #1142]  INFO -- default-centos-65: Finished creating <default-centos-65> (1m59.14s).
+I, [2014-04-29T09:51:18.127025 #1142]  INFO -- default-centos-65: -----> Converging <default-centos-65>...
+I, [2014-04-29T09:51:18.127896 #1142]  INFO -- default-centos-65: Preparing files for transfer
+I, [2014-04-29T09:51:18.128294 #1142]  INFO -- default-centos-65: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-04-29T09:51:23.252987 #1142]  INFO -- default-centos-65: Removing non-cookbook files before transfer
+I, [2014-04-29T09:51:23.478968 #1142]  INFO -- default-centos-65: -----> Installing Chef Omnibus (true)
+I, [2014-04-29T09:51:23.479044 #1142]  INFO -- default-centos-65: downloading https://www.getchef.com/chef/install.sh
+I, [2014-04-29T09:51:23.479070 #1142]  INFO -- default-centos-65:   to file /tmp/install.sh
+I, [2014-04-29T09:51:23.479093 #1142]  INFO -- default-centos-65: trying wget...
+I, [2014-04-29T09:51:23.956047 #1142]  INFO -- default-centos-65: Downloading Chef  for el...
+I, [2014-04-29T09:51:23.958814 #1142]  INFO -- default-centos-65: downloading https://www.getchef.com/chef/metadata?v=&prerelease=false&nightlies=false&p=el&pv=6&m=x86_64
+I, [2014-04-29T09:51:23.958858 #1142]  INFO -- default-centos-65:   to file /tmp/install.sh.1857/metadata.txt
+I, [2014-04-29T09:51:23.958883 #1142]  INFO -- default-centos-65: trying wget...
+I, [2014-04-29T09:51:24.214554 #1142]  INFO -- default-centos-65: url	https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-11.12.2-1.el6.x86_64.rpm
+I, [2014-04-29T09:51:24.214629 #1142]  INFO -- default-centos-65: md5	b8ef6b908b42f1cf97ac7864a8587d9d
+I, [2014-04-29T09:51:24.214662 #1142]  INFO -- default-centos-65: sha256	cc6bafac692a9b6db791310f46917a0c5857bd5b5e69c65daabf0beac3595cfc
+I, [2014-04-29T09:51:24.217963 #1142]  INFO -- default-centos-65: downloaded metadata file looks valid...
+I, [2014-04-29T09:51:24.227699 #1142]  INFO -- default-centos-65: downloading https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-11.12.2-1.el6.x86_64.rpm
+I, [2014-04-29T09:51:24.227751 #1142]  INFO -- default-centos-65:   to file /tmp/install.sh.1857/chef-11.12.2-1.el6.x86_64.rpm
+I, [2014-04-29T09:51:24.227776 #1142]  INFO -- default-centos-65: trying wget...
+I, [2014-04-29T09:51:30.276857 #1142]  INFO -- default-centos-65: Comparing checksum with sha256sum...
+I, [2014-04-29T09:51:30.425294 #1142]  INFO -- default-centos-65: Installing Chef 
+I, [2014-04-29T09:51:30.425359 #1142]  INFO -- default-centos-65: installing with rpm...
+I, [2014-04-29T09:51:30.497440 #1142]  INFO -- default-centos-65: warning: /tmp/install.sh.1857/chef-11.12.2-1.el6.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+Preparing...                                                            (100%)#                                           (100%)##                                          (100%)###                                         (100%)####                                        (100%)#####                                       (100%)######                                      (100%)#######                                     (100%)########                                    (100%)#########                                   (100%)##########                                  (100%)###########                                 (100%)############                                (100%)#############                               (100%)##############                              (100%)###############                             (100%)################                            (100%)#################                           (100%)##################                          (100%)###################                         (100%)####################                        (100%)#####################                       (100%)######################                      (100%)#######################                     (100%)########################                    (100%)#########################                   (100%)##########################                  (100%)###########################                 (100%)############################                (100%)#############################               (100%)##############################              (100%)###############################             (100%)################################            (100%)#################################           (100%)##################################          (100%)###################################         (100%)####################################        (100%)#####################################       (100%)######################################      (100%)#######################################     (100%)########################################    (100%)I, [2014-04-29T09:51:30.731328 #1142]  INFO -- default-centos-65: #########################################   (100%)##########################################  (100%)########################################### (100%)########################################### [100%]
+   1:chef                                                               (  1%)#                                           (  3%)##                                          (  6%)###                                         (  8%)####                                        ( 10%)#####                                       ( 13%)######                                      ( 15%)#######                                     ( 17%)########                                    ( 19%)#########                                   ( 22%)##########                                  ( 24%)###########                                 ( 26%)############                                ( 28%)#############                               ( 31%)##############                              ( 33%)###############                             ( 35%)################                            ( 38%)#################                           ( 40%)##################                          ( 42%)###################                         ( 44%)####################                        ( 47%)#####################                       ( 49%)######################                      ( 51%)#######################                     ( 53%)########################                    ( 56%)#########################                   ( 58%)##########################                  ( 60%)###########################                 ( 63%)############################                ( 65%)#############################               ( 67%)##############################              ( 69%)###############################             ( 72%)################################            ( 74%)#################################           ( 76%)##################################          ( 78%)###################################         ( 81%)####################################        ( 83%)#####################################       ( 85%)######################################      ( 88%)#######################################     ( 90%)########################################    ( 92%)#########################################   ( 94%)##########################################  ( 97%)I, [2014-04-29T09:51:33.634678 #1142]  INFO -- default-centos-65: ########################################### ( 99%)########################################### [100%]
+I, [2014-04-29T09:51:34.166886 #1142]  INFO -- default-centos-65: Thank you for installing Chef!
+I, [2014-04-29T09:51:34.205177 #1142]  INFO -- default-centos-65: Transfering files to <default-centos-65>
+I, [2014-04-29T09:51:35.883882 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:34+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-04-29T09:51:35.883944 #1142]  INFO -- default-centos-65:   One version per cookbook
+I, [2014-04-29T09:51:35.883969 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.903505 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:34+00:00] INFO: Forking chef instance to converge...
+I, [2014-04-29T09:51:35.923277 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:35+00:00] WARN: 
+I, [2014-04-29T09:51:35.923340 #1142]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-04-29T09:51:35.923366 #1142]  INFO -- default-centos-65: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-04-29T09:51:35.923391 #1142]  INFO -- default-centos-65: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-04-29T09:51:35.923414 #1142]  INFO -- default-centos-65: attacks.
+I, [2014-04-29T09:51:35.923437 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.923460 #1142]  INFO -- default-centos-65: To fix this issue add an entry like this to your configuration file:
+I, [2014-04-29T09:51:35.923483 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.923506 #1142]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:51:35.923529 #1142]  INFO -- default-centos-65:   # Verify all HTTPS connections (recommended)
+I, [2014-04-29T09:51:35.923552 #1142]  INFO -- default-centos-65:   ssl_verify_mode :verify_peer
+I, [2014-04-29T09:51:35.923575 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.923598 #1142]  INFO -- default-centos-65:   # OR, Verify only connections to chef-server
+I, [2014-04-29T09:51:35.923621 #1142]  INFO -- default-centos-65:   verify_api_cert true
+I, [2014-04-29T09:51:35.923643 #1142]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:51:35.923666 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.923694 #1142]  INFO -- default-centos-65: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-04-29T09:51:35.923721 #1142]  INFO -- default-centos-65: `knife ssl check` command like so:
+I, [2014-04-29T09:51:35.923744 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.923767 #1142]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:51:35.923789 #1142]  INFO -- default-centos-65:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-04-29T09:51:35.923825 #1142]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:51:35.923858 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.923882 #1142]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-04-29T09:51:35.923905 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:51:35.958591 #1142]  INFO -- default-centos-65: Starting Chef Client, version 11.12.2[0m
+I, [2014-04-29T09:51:35.959308 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:35+00:00] INFO: *** Chef 11.12.2 ***
+I, [2014-04-29T09:51:35.959344 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:35+00:00] INFO: Chef-client pid: 1957
+I, [2014-04-29T09:51:37.838831 #1142]  INFO -- default-centos-65: Creating a new client identity for default-centos-65 using the validator key.[0m
+I, [2014-04-29T09:51:37.838897 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:36+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2014-04-29T09:51:38.055942 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: http://127.0.0.1:8889/nodes/default-centos-65
+I, [2014-04-29T09:51:38.063698 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: Setting the run_list to ["recipe[dockworker::provisioner]", "recipe[dockworker::create_elasticsearch_image]"] from CLI options
+I, [2014-04-29T09:51:38.066104 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: Run List is [recipe[dockworker::provisioner], recipe[dockworker::create_elasticsearch_image]]
+I, [2014-04-29T09:51:38.066151 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: Run List expands to [dockworker::provisioner, dockworker::create_elasticsearch_image]
+I, [2014-04-29T09:51:38.066177 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: Starting Chef Run for default-centos-65
+I, [2014-04-29T09:51:38.066202 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: Running start handlers
+I, [2014-04-29T09:51:38.066226 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: Start handlers complete.
+I, [2014-04-29T09:51:38.072024 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:37+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-65/runs
+I, [2014-04-29T09:51:38.072073 #1142]  INFO -- default-centos-65: resolving cookbooks for run list: ["dockworker::provisioner", "dockworker::create_elasticsearch_image"][0m
+I, [2014-04-29T09:51:41.955139 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Loading cookbooks [dockworker@0.1.0, docker@0.34.1, apt@2.3.10, aufs@0.1.1, device-mapper@0.1.0, git@4.0.2, golang@1.3.0, homebrew@1.6.0, lxc@1.1.8, modules@0.2.0, runit@1.5.10, sysctl@0.4.0, yum-epel@0.3.6, dmg@2.2.0, build-essential@2.0.0, windows@1.30.2, yum@3.2.0, dpkg_autostart@0.1.10, chef_handler@1.1.6]
+I, [2014-04-29T09:51:41.964126 #1142]  INFO -- default-centos-65: Synchronizing Cookbooks:[0m
+I, [2014-04-29T09:51:42.003988 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/dockworker/recipes/provisioner.rb in the cache.
+I, [2014-04-29T09:51:42.065081 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/dockworker/recipes/chef_metal.rb in the cache.
+I, [2014-04-29T09:51:42.093000 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/dockworker/recipes/create_elasticsearch_image.rb in the cache.
+I, [2014-04-29T09:51:42.132701 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/dockworker/metadata.json in the cache.
+I, [2014-04-29T09:51:42.171336 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/dockworker/README.md in the cache.
+I, [2014-04-29T09:51:42.171402 #1142]  INFO -- default-centos-65:   - dockworker[0m
+I, [2014-04-29T09:51:42.213068 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/resources/container.rb in the cache.
+I, [2014-04-29T09:51:42.255254 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/resources/image.rb in the cache.
+I, [2014-04-29T09:51:42.296907 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/resources/registry.rb in the cache.
+I, [2014-04-29T09:51:42.337821 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/providers/container.rb in the cache.
+I, [2014-04-29T09:51:42.368579 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/providers/image.rb in the cache.
+I, [2014-04-29T09:51:42.409306 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/providers/registry.rb in the cache.
+I, [2014-04-29T09:51:42.449618 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/runit.rb in the cache.
+I, [2014-04-29T09:51:42.491882 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/upstart.rb in the cache.
+I, [2014-04-29T09:51:42.533760 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/devicemapper.rb in the cache.
+I, [2014-04-29T09:51:42.575698 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:42.616595 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/source.rb in the cache.
+I, [2014-04-29T09:51:42.658093 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/binary.rb in the cache.
+I, [2014-04-29T09:51:42.699751 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/lxc.rb in the cache.
+I, [2014-04-29T09:51:42.742828 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/group.rb in the cache.
+I, [2014-04-29T09:51:42.784704 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/cgroups.rb in the cache.
+I, [2014-04-29T09:51:42.826692 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/systemd.rb in the cache.
+I, [2014-04-29T09:51:42.869169 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/aufs.rb in the cache.
+I, [2014-04-29T09:51:42.901448 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:41+00:00] INFO: Storing updated cookbooks/docker/recipes/sysv.rb in the cache.
+I, [2014-04-29T09:51:42.943884 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/docker/recipes/package.rb in the cache.
+I, [2014-04-29T09:51:42.984744 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/docker/libraries/helpers.rb in the cache.
+I, [2014-04-29T09:51:43.027032 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/docker/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:43.070585 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/docker/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:43.112018 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/docker/metadata.json in the cache.
+I, [2014-04-29T09:51:43.154578 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/docker/README.md in the cache.
+I, [2014-04-29T09:51:43.154648 #1142]  INFO -- default-centos-65:   - docker[0m
+I, [2014-04-29T09:51:43.194514 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/resources/preference.rb in the cache.
+I, [2014-04-29T09:51:43.234544 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/resources/repository.rb in the cache.
+I, [2014-04-29T09:51:43.264677 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/providers/preference.rb in the cache.
+I, [2014-04-29T09:51:43.305570 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/providers/repository.rb in the cache.
+I, [2014-04-29T09:51:43.343965 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:43.403496 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/recipes/cacher-client.rb in the cache.
+I, [2014-04-29T09:51:43.443457 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/recipes/cacher-ng.rb in the cache.
+I, [2014-04-29T09:51:43.484582 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/libraries/helpers.rb in the cache.
+I, [2014-04-29T09:51:43.515136 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/libraries/network.rb in the cache.
+I, [2014-04-29T09:51:43.555487 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:43.595435 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:43.635558 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/metadata.json in the cache.
+I, [2014-04-29T09:51:43.676131 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/apt/README.md in the cache.
+I, [2014-04-29T09:51:43.676195 #1142]  INFO -- default-centos-65:   - apt[0m
+I, [2014-04-29T09:51:43.716266 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/aufs/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:43.747091 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/aufs/recipes/package.rb in the cache.
+I, [2014-04-29T09:51:43.786100 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/aufs/recipes/module.rb in the cache.
+I, [2014-04-29T09:51:43.825087 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/aufs/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:43.866033 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:42+00:00] INFO: Storing updated cookbooks/aufs/metadata.json in the cache.
+I, [2014-04-29T09:51:43.907056 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/aufs/README.md in the cache.
+I, [2014-04-29T09:51:43.907121 #1142]  INFO -- default-centos-65:   - aufs[0m
+I, [2014-04-29T09:51:43.946135 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/device-mapper/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:43.977035 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/device-mapper/recipes/package.rb in the cache.
+I, [2014-04-29T09:51:44.019041 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/device-mapper/recipes/module.rb in the cache.
+I, [2014-04-29T09:51:44.058016 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/device-mapper/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:44.097985 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/device-mapper/metadata.json in the cache.
+I, [2014-04-29T09:51:44.138544 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/device-mapper/README.md in the cache.
+I, [2014-04-29T09:51:44.138617 #1142]  INFO -- default-centos-65:   - device-mapper[0m
+I, [2014-04-29T09:51:44.176229 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/resources/config.rb in the cache.
+I, [2014-04-29T09:51:44.210033 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/providers/config.rb in the cache.
+I, [2014-04-29T09:51:44.249507 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/recipes/windows.rb in the cache.
+I, [2014-04-29T09:51:44.288959 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:44.331969 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/recipes/source.rb in the cache.
+I, [2014-04-29T09:51:44.370008 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/recipes/server.rb in the cache.
+I, [2014-04-29T09:51:44.401993 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:44.443634 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/metadata.json in the cache.
+I, [2014-04-29T09:51:44.482659 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/git/README.md in the cache.
+I, [2014-04-29T09:51:44.482725 #1142]  INFO -- default-centos-65:   - git[0m
+I, [2014-04-29T09:51:44.523590 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/resources/package.rb in the cache.
+I, [2014-04-29T09:51:44.565763 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/providers/package.rb in the cache.
+I, [2014-04-29T09:51:44.605426 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:44.637682 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/recipes/packages.rb in the cache.
+I, [2014-04-29T09:51:44.698113 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:44.736344 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/metadata.json in the cache.
+I, [2014-04-29T09:51:44.778795 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/golang/README.md in the cache.
+I, [2014-04-29T09:51:44.778861 #1142]  INFO -- default-centos-65:   - golang[0m
+I, [2014-04-29T09:51:44.817701 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/homebrew/resources/cask.rb in the cache.
+I, [2014-04-29T09:51:44.847197 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/homebrew/resources/tap.rb in the cache.
+I, [2014-04-29T09:51:44.887101 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:43+00:00] INFO: Storing updated cookbooks/homebrew/providers/cask.rb in the cache.
+I, [2014-04-29T09:51:44.925042 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/providers/tap.rb in the cache.
+I, [2014-04-29T09:51:44.967137 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:45.005593 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/libraries/homebrew_mixin.rb in the cache.
+I, [2014-04-29T09:51:45.034231 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:45.073748 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/libraries/homebrew_package.rb in the cache.
+I, [2014-04-29T09:51:45.113455 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:45.154404 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/metadata.json in the cache.
+I, [2014-04-29T09:51:45.194458 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/homebrew/README.md in the cache.
+I, [2014-04-29T09:51:45.194523 #1142]  INFO -- default-centos-65:   - homebrew[0m
+I, [2014-04-29T09:51:45.235059 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/service.rb in the cache.
+I, [2014-04-29T09:51:45.265373 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/fstab.rb in the cache.
+I, [2014-04-29T09:51:45.307215 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/container.rb in the cache.
+I, [2014-04-29T09:51:45.345596 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/ephemeral.rb in the cache.
+I, [2014-04-29T09:51:45.388598 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/config.rb in the cache.
+I, [2014-04-29T09:51:45.429541 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/default.rb in the cache.
+I, [2014-04-29T09:51:45.470483 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/resources/interface.rb in the cache.
+I, [2014-04-29T09:51:45.511817 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/service.rb in the cache.
+I, [2014-04-29T09:51:45.551846 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/fstab.rb in the cache.
+I, [2014-04-29T09:51:45.583196 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/container.rb in the cache.
+I, [2014-04-29T09:51:45.625464 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/ephemeral.rb in the cache.
+I, [2014-04-29T09:51:45.665591 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/config.rb in the cache.
+I, [2014-04-29T09:51:45.708358 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/default.rb in the cache.
+I, [2014-04-29T09:51:45.748847 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/providers/interface.rb in the cache.
+I, [2014-04-29T09:51:45.791273 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/recipes/containers.rb in the cache.
+I, [2014-04-29T09:51:45.832349 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/recipes/knife.rb in the cache.
+I, [2014-04-29T09:51:45.863517 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:44+00:00] INFO: Storing updated cookbooks/lxc/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:45.903654 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/recipes/bugfix_precise_repo.rb in the cache.
+I, [2014-04-29T09:51:45.944502 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/recipes/install_dependencies.rb in the cache.
+I, [2014-04-29T09:51:46.004258 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/libraries/monkey.rb in the cache.
+I, [2014-04-29T09:51:46.045013 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/libraries/lxc_expanded_resources.rb in the cache.
+I, [2014-04-29T09:51:46.086927 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:46.129654 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/metadata.json in the cache.
+I, [2014-04-29T09:51:46.160192 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/lxc/README.md in the cache.
+I, [2014-04-29T09:51:46.161254 #1142]  INFO -- default-centos-65:   - lxc[0m
+I, [2014-04-29T09:51:46.203205 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/resources/default.rb in the cache.
+I, [2014-04-29T09:51:46.242763 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/resources/multi.rb in the cache.
+I, [2014-04-29T09:51:46.284261 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/providers/default.rb in the cache.
+I, [2014-04-29T09:51:46.326980 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/providers/multi.rb in the cache.
+I, [2014-04-29T09:51:46.369005 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/recipes/config.rb in the cache.
+I, [2014-04-29T09:51:46.397726 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:46.439392 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/recipes/install_attributes.rb in the cache.
+I, [2014-04-29T09:51:46.482917 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/libraries/default.rb in the cache.
+I, [2014-04-29T09:51:46.523483 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:46.562824 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/metadata.json in the cache.
+I, [2014-04-29T09:51:46.602664 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/modules/README.md in the cache.
+I, [2014-04-29T09:51:46.602729 #1142]  INFO -- default-centos-65:   - modules[0m
+I, [2014-04-29T09:51:46.632256 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:46.672612 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/libraries/provider_runit_service.rb in the cache.
+I, [2014-04-29T09:51:46.711672 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/libraries/default.rb in the cache.
+I, [2014-04-29T09:51:46.752665 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/libraries/resource_runit_service.rb in the cache.
+I, [2014-04-29T09:51:46.793505 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:46.832604 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/metadata.json in the cache.
+I, [2014-04-29T09:51:46.862970 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/runit/README.md in the cache.
+I, [2014-04-29T09:51:46.863035 #1142]  INFO -- default-centos-65:   - runit[0m
+I, [2014-04-29T09:51:46.902233 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:45+00:00] INFO: Storing updated cookbooks/sysctl/resources/param.rb in the cache.
+I, [2014-04-29T09:51:46.939792 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/providers/param.rb in the cache.
+I, [2014-04-29T09:51:46.979577 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/recipes/service.rb in the cache.
+I, [2014-04-29T09:51:47.021559 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:47.059976 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/libraries/sysctl.rb in the cache.
+I, [2014-04-29T09:51:47.089483 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:47.130548 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:47.168363 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/metadata.json in the cache.
+I, [2014-04-29T09:51:47.207474 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/sysctl/README.md in the cache.
+I, [2014-04-29T09:51:47.207543 #1142]  INFO -- default-centos-65:   - sysctl[0m
+I, [2014-04-29T09:51:47.269116 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:47.297386 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/attributes/epel-source.rb in the cache.
+I, [2014-04-29T09:51:47.336417 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/attributes/epel-debuginfo.rb in the cache.
+I, [2014-04-29T09:51:47.374659 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/attributes/epel-testing.rb in the cache.
+I, [2014-04-29T09:51:47.414396 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/attributes/epel-testing-source.rb in the cache.
+I, [2014-04-29T09:51:47.454269 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/attributes/epel.rb in the cache.
+I, [2014-04-29T09:51:47.492447 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/attributes/epel-testing-debuginfo.rb in the cache.
+I, [2014-04-29T09:51:47.522162 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/metadata.json in the cache.
+I, [2014-04-29T09:51:47.561027 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/yum-epel/README.md in the cache.
+I, [2014-04-29T09:51:47.561091 #1142]  INFO -- default-centos-65:   - yum-epel[0m
+I, [2014-04-29T09:51:47.598842 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/dmg/resources/package.rb in the cache.
+I, [2014-04-29T09:51:47.641182 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/dmg/providers/package.rb in the cache.
+I, [2014-04-29T09:51:47.680057 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/dmg/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:47.708707 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/dmg/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:47.747753 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/dmg/metadata.json in the cache.
+I, [2014-04-29T09:51:47.786333 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/dmg/README.md in the cache.
+I, [2014-04-29T09:51:47.786399 #1142]  INFO -- default-centos-65:   - dmg[0m
+I, [2014-04-29T09:51:47.825958 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_debian.rb in the cache.
+I, [2014-04-29T09:51:47.865974 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_mac_os_x.rb in the cache.
+I, [2014-04-29T09:51:47.895130 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:46+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_solaris2.rb in the cache.
+I, [2014-04-29T09:51:47.934345 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:47.972861 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_omnios.rb in the cache.
+I, [2014-04-29T09:51:48.013858 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_suse.rb in the cache.
+I, [2014-04-29T09:51:48.052935 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_rhel.rb in the cache.
+I, [2014-04-29T09:51:48.092528 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_freebsd.rb in the cache.
+I, [2014-04-29T09:51:48.122523 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_fedora.rb in the cache.
+I, [2014-04-29T09:51:48.161439 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/recipes/_smartos.rb in the cache.
+I, [2014-04-29T09:51:48.199006 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/libraries/xcode_command_line_tools.rb in the cache.
+I, [2014-04-29T09:51:48.238012 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/libraries/timing.rb in the cache.
+I, [2014-04-29T09:51:48.277924 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:48.316650 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:48.345600 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/metadata.json in the cache.
+I, [2014-04-29T09:51:48.384938 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/build-essential/README.md in the cache.
+I, [2014-04-29T09:51:48.385002 #1142]  INFO -- default-centos-65:   - build-essential[0m
+I, [2014-04-29T09:51:48.424660 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/shortcut.rb in the cache.
+I, [2014-04-29T09:51:48.487207 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/batch.rb in the cache.
+I, [2014-04-29T09:51:48.532424 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/printer.rb in the cache.
+I, [2014-04-29T09:51:48.577163 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/zipfile.rb in the cache.
+I, [2014-04-29T09:51:48.619568 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/path.rb in the cache.
+I, [2014-04-29T09:51:48.660393 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/pagefile.rb in the cache.
+I, [2014-04-29T09:51:48.691821 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/task.rb in the cache.
+I, [2014-04-29T09:51:48.733602 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/feature.rb in the cache.
+I, [2014-04-29T09:51:48.773372 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/printer_port.rb in the cache.
+I, [2014-04-29T09:51:48.817479 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/reboot.rb in the cache.
+I, [2014-04-29T09:51:48.858107 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/registry.rb in the cache.
+I, [2014-04-29T09:51:48.899993 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:47+00:00] INFO: Storing updated cookbooks/windows/resources/auto_run.rb in the cache.
+I, [2014-04-29T09:51:48.942391 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/resources/package.rb in the cache.
+I, [2014-04-29T09:51:48.983773 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/shortcut.rb in the cache.
+I, [2014-04-29T09:51:49.027387 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/feature_servermanagercmd.rb in the cache.
+I, [2014-04-29T09:51:49.058070 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/batch.rb in the cache.
+I, [2014-04-29T09:51:49.099045 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/printer.rb in the cache.
+I, [2014-04-29T09:51:49.139849 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/zipfile.rb in the cache.
+I, [2014-04-29T09:51:49.182841 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/path.rb in the cache.
+I, [2014-04-29T09:51:49.227357 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/pagefile.rb in the cache.
+I, [2014-04-29T09:51:49.271235 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/feature_powershell.rb in the cache.
+I, [2014-04-29T09:51:49.317359 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/task.rb in the cache.
+I, [2014-04-29T09:51:49.360914 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/printer_port.rb in the cache.
+I, [2014-04-29T09:51:49.401223 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/reboot.rb in the cache.
+I, [2014-04-29T09:51:49.442895 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/registry.rb in the cache.
+I, [2014-04-29T09:51:49.474226 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/auto_run.rb in the cache.
+I, [2014-04-29T09:51:49.514733 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/package.rb in the cache.
+I, [2014-04-29T09:51:49.554280 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/providers/feature_dism.rb in the cache.
+I, [2014-04-29T09:51:49.594413 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:49.635911 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/recipes/reboot_handler.rb in the cache.
+I, [2014-04-29T09:51:49.676972 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/libraries/windows_architecture_helper.rb in the cache.
+I, [2014-04-29T09:51:49.718088 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/libraries/powershell_out.rb in the cache.
+I, [2014-04-29T09:51:49.760542 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/libraries/version.rb in the cache.
+I, [2014-04-29T09:51:49.809659 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/libraries/registry_helper.rb in the cache.
+I, [2014-04-29T09:51:49.850145 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/libraries/windows_helper.rb in the cache.
+I, [2014-04-29T09:51:49.891695 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:48+00:00] INFO: Storing updated cookbooks/windows/libraries/windows_privileged.rb in the cache.
+I, [2014-04-29T09:51:49.933083 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/windows/libraries/feature_base.rb in the cache.
+I, [2014-04-29T09:51:49.975290 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/windows/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:50.016457 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/windows/libraries/powershell_helper.rb in the cache.
+I, [2014-04-29T09:51:50.057000 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/windows/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:50.097570 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/windows/metadata.json in the cache.
+I, [2014-04-29T09:51:50.137080 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/windows/README.md in the cache.
+I, [2014-04-29T09:51:50.137147 #1142]  INFO -- default-centos-65:   - windows[0m
+I, [2014-04-29T09:51:50.165936 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/resources/repository.rb in the cache.
+I, [2014-04-29T09:51:50.204809 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/resources/globalconfig.rb in the cache.
+I, [2014-04-29T09:51:50.243885 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/providers/repository.rb in the cache.
+I, [2014-04-29T09:51:50.284763 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/providers/globalconfig.rb in the cache.
+I, [2014-04-29T09:51:50.322944 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:50.352522 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:50.393478 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/attributes/main.rb in the cache.
+I, [2014-04-29T09:51:50.433217 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/metadata.json in the cache.
+I, [2014-04-29T09:51:50.472355 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/yum/README.md in the cache.
+I, [2014-04-29T09:51:50.472423 #1142]  INFO -- default-centos-65:   - yum[0m
+I, [2014-04-29T09:51:50.511507 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/dpkg_autostart/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:50.551957 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/dpkg_autostart/libraries/resource.rb in the cache.
+I, [2014-04-29T09:51:50.582685 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/dpkg_autostart/libraries/provider.rb in the cache.
+I, [2014-04-29T09:51:50.622685 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/dpkg_autostart/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:50.661636 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/dpkg_autostart/metadata.json in the cache.
+I, [2014-04-29T09:51:50.702514 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/dpkg_autostart/README.md in the cache.
+I, [2014-04-29T09:51:50.702572 #1142]  INFO -- default-centos-65:   - dpkg_autostart[0m
+I, [2014-04-29T09:51:50.743866 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/chef_handler/resources/default.rb in the cache.
+I, [2014-04-29T09:51:50.772713 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/chef_handler/providers/default.rb in the cache.
+I, [2014-04-29T09:51:50.813377 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/chef_handler/recipes/default.rb in the cache.
+I, [2014-04-29T09:51:50.851663 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/chef_handler/recipes/json_file.rb in the cache.
+I, [2014-04-29T09:51:50.890408 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:49+00:00] INFO: Storing updated cookbooks/chef_handler/libraries/matchers.rb in the cache.
+I, [2014-04-29T09:51:50.930535 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:50+00:00] INFO: Storing updated cookbooks/chef_handler/attributes/default.rb in the cache.
+I, [2014-04-29T09:51:50.964334 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:50+00:00] INFO: Storing updated cookbooks/chef_handler/metadata.json in the cache.
+I, [2014-04-29T09:51:51.027852 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:50+00:00] INFO: Storing updated cookbooks/chef_handler/README.md in the cache.
+I, [2014-04-29T09:51:51.028706 #1142]  INFO -- default-centos-65:   - chef_handler[0m
+I, [2014-04-29T09:51:51.028750 #1142]  INFO -- default-centos-65: Compiling Cookbooks...[0m
+I, [2014-04-29T09:51:51.175232 #1142]  INFO -- default-centos-65: [2014-04-29T16:51:50+00:00] INFO: WindowsPackage light-weight resource already initialized -- overriding!
+I, [2014-04-29T09:51:51.238897 #1142]  INFO -- default-centos-65: Recipe: dockworker::chef_metal[0m
+I, [2014-04-29T09:51:51.238965 #1142]  INFO -- default-centos-65:   * chef_gem[chef-metal] action install[0m[2014-04-29T16:51:50+00:00] INFO: Processing chef_gem[chef-metal] action install (dockworker::chef_metal line 22)
+I, [2014-04-29T09:52:24.033762 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.033827 #1142]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:52:24.033854 #1142]  INFO -- default-centos-65: [31mError executing action `install` on resource 'chef_gem[chef-metal]'[0m
+I, [2014-04-29T09:52:24.033878 #1142]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:52:24.033902 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.033925 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.033949 #1142]  INFO -- default-centos-65: Gem::Installer::ExtensionBuildError[0m
+I, [2014-04-29T09:52:24.033972 #1142]  INFO -- default-centos-65: -----------------------------------[0m
+I, [2014-04-29T09:52:24.033995 #1142]  INFO -- default-centos-65: ERROR: Failed to build gem native extension.
+I, [2014-04-29T09:52:24.034019 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.034066 #1142]  INFO -- default-centos-65:  /opt/chef/embedded/bin/ruby extconf.rb
+I, [2014-04-29T09:52:24.034092 #1142]  INFO -- default-centos-65: Extracting libxml2-2.8.0.tar.gz into tmp//ports/libxml2/2.8.0... OK
+I, [2014-04-29T09:52:24.034116 #1142]  INFO -- default-centos-65: Running 'configure' for libxml2 2.8.0... ERROR, review 'tmp//ports/libxml2/2.8.0/configure.log' to see what happened.
+I, [2014-04-29T09:52:24.034139 #1142]  INFO -- default-centos-65: *** extconf.rb failed ***
+I, [2014-04-29T09:52:24.034176 #1142]  INFO -- default-centos-65: Could not create Makefile due to some reason, probably lack of
+I, [2014-04-29T09:52:24.034200 #1142]  INFO -- default-centos-65: necessary libraries and/or headers.  Check the mkmf.log file for more
+I, [2014-04-29T09:52:24.034223 #1142]  INFO -- default-centos-65: details.  You may need configuration options.
+I, [2014-04-29T09:52:24.034246 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.034283 #1142]  INFO -- default-centos-65: Provided configuration options:
+I, [2014-04-29T09:52:24.034328 #1142]  INFO -- default-centos-65: 	--with-opt-dir
+I, [2014-04-29T09:52:24.034353 #1142]  INFO -- default-centos-65: 	--with-opt-include
+I, [2014-04-29T09:52:24.034376 #1142]  INFO -- default-centos-65: 	--without-opt-include=${opt-dir}/include
+I, [2014-04-29T09:52:24.034399 #1142]  INFO -- default-centos-65: 	--with-opt-lib
+I, [2014-04-29T09:52:24.034422 #1142]  INFO -- default-centos-65: 	--without-opt-lib=${opt-dir}/lib
+I, [2014-04-29T09:52:24.034445 #1142]  INFO -- default-centos-65: 	--with-make-prog
+I, [2014-04-29T09:52:24.034469 #1142]  INFO -- default-centos-65: 	--without-make-prog
+I, [2014-04-29T09:52:24.034493 #1142]  INFO -- default-centos-65: 	--srcdir=.
+I, [2014-04-29T09:52:24.034516 #1142]  INFO -- default-centos-65: 	--curdir
+I, [2014-04-29T09:52:24.034539 #1142]  INFO -- default-centos-65: 	--ruby=/opt/chef/embedded/bin/ruby
+I, [2014-04-29T09:52:24.034563 #1142]  INFO -- default-centos-65: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:278:in `block in execute': Failed to complete configure task (RuntimeError)
+I, [2014-04-29T09:52:24.034587 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `chdir'
+I, [2014-04-29T09:52:24.034610 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `execute'
+I, [2014-04-29T09:52:24.034633 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:65:in `configure'
+I, [2014-04-29T09:52:24.034656 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:108:in `cook'
+I, [2014-04-29T09:52:24.034679 #1142]  INFO -- default-centos-65: 	from extconf.rb:101:in `block in <main>'
+I, [2014-04-29T09:52:24.034702 #1142]  INFO -- default-centos-65: 	from extconf.rb:119:in `call'
+I, [2014-04-29T09:52:24.034725 #1142]  INFO -- default-centos-65: 	from extconf.rb:119:in `block in <main>'
+I, [2014-04-29T09:52:24.034748 #1142]  INFO -- default-centos-65: 	from extconf.rb:109:in `tap'
+I, [2014-04-29T09:52:24.034771 #1142]  INFO -- default-centos-65: 	from extconf.rb:109:in `<main>'
+I, [2014-04-29T09:52:24.034794 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.034817 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.034840 #1142]  INFO -- default-centos-65: Gem files will remain installed in /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1 for inspection.
+I, [2014-04-29T09:52:24.034863 #1142]  INFO -- default-centos-65: Results logged to /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1/ext/nokogiri/gem_make.out
+I, [2014-04-29T09:52:24.034886 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.034909 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.034932 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.034955 #1142]  INFO -- default-centos-65: Cookbook Trace:[0m
+I, [2014-04-29T09:52:24.034978 #1142]  INFO -- default-centos-65: ---------------[0m
+I, [2014-04-29T09:52:24.035002 #1142]  INFO -- default-centos-65: /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:22:in `from_file'
+I, [2014-04-29T09:52:24.035026 #1142]  INFO -- default-centos-65: /tmp/kitchen/cache/cookbooks/dockworker/recipes/create_elasticsearch_image.rb:20:in `from_file'[0m
+I, [2014-04-29T09:52:24.035048 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.035071 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.035095 #1142]  INFO -- default-centos-65: Resource Declaration:[0m
+I, [2014-04-29T09:52:24.035118 #1142]  INFO -- default-centos-65: ---------------------[0m
+I, [2014-04-29T09:52:24.035142 #1142]  INFO -- default-centos-65: # In /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb
+I, [2014-04-29T09:52:24.035165 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.035188 #1142]  INFO -- default-centos-65:  22: chef_gem 'chef-metal'
+I, [2014-04-29T09:52:24.035218 #1142]  INFO -- default-centos-65:  23: chef_gem 'chef-metal-docker'[0m
+I, [2014-04-29T09:52:24.035242 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.035265 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.035288 #1142]  INFO -- default-centos-65: Compiled Resource:[0m
+I, [2014-04-29T09:52:24.035320 #1142]  INFO -- default-centos-65: ------------------[0m
+I, [2014-04-29T09:52:24.035343 #1142]  INFO -- default-centos-65: # Declared in /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:22:in `from_file'
+I, [2014-04-29T09:52:24.035376 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.035399 #1142]  INFO -- default-centos-65: chef_gem("chef-metal") do
+I, [2014-04-29T09:52:24.035422 #1142]  INFO -- default-centos-65:   provider Chef::Provider::Package::Rubygems
+I, [2014-04-29T09:52:24.035445 #1142]  INFO -- default-centos-65:   action :install
+I, [2014-04-29T09:52:24.035468 #1142]  INFO -- default-centos-65:   retries 0
+I, [2014-04-29T09:52:24.035491 #1142]  INFO -- default-centos-65:   retry_delay 2
+I, [2014-04-29T09:52:24.035514 #1142]  INFO -- default-centos-65:   guard_interpreter :default
+I, [2014-04-29T09:52:24.035537 #1142]  INFO -- default-centos-65:   package_name "chef-metal"
+I, [2014-04-29T09:52:24.035559 #1142]  INFO -- default-centos-65:   version "0.9.4"
+I, [2014-04-29T09:52:24.035582 #1142]  INFO -- default-centos-65:   cookbook_name "dockworker"
+I, [2014-04-29T09:52:24.035605 #1142]  INFO -- default-centos-65:   recipe_name "chef_metal"
+I, [2014-04-29T09:52:24.035628 #1142]  INFO -- default-centos-65: end
+I, [2014-04-29T09:52:24.035650 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.035674 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.035697 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.037505 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.037547 #1142]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:52:24.037572 #1142]  INFO -- default-centos-65: [31mRecipe Compile Error in /tmp/kitchen/cache/cookbooks/dockworker/recipes/create_elasticsearch_image.rb[0m
+I, [2014-04-29T09:52:24.037596 #1142]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:52:24.037619 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.037642 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.037665 #1142]  INFO -- default-centos-65: Gem::Installer::ExtensionBuildError[0m
+I, [2014-04-29T09:52:24.037688 #1142]  INFO -- default-centos-65: -----------------------------------[0m
+I, [2014-04-29T09:52:24.037712 #1142]  INFO -- default-centos-65: chef_gem[chef-metal] (dockworker::chef_metal line 22) had an error: Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+I, [2014-04-29T09:52:24.037735 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.037764 #1142]  INFO -- default-centos-65:  /opt/chef/embedded/bin/ruby extconf.rb
+I, [2014-04-29T09:52:24.037788 #1142]  INFO -- default-centos-65: Extracting libxml2-2.8.0.tar.gz into tmp//ports/libxml2/2.8.0... OK
+I, [2014-04-29T09:52:24.037812 #1142]  INFO -- default-centos-65: Running 'configure' for libxml2 2.8.0... ERROR, review 'tmp//ports/libxml2/2.8.0/configure.log' to see what happened.
+I, [2014-04-29T09:52:24.037835 #1142]  INFO -- default-centos-65: *** extconf.rb failed ***
+I, [2014-04-29T09:52:24.037859 #1142]  INFO -- default-centos-65: Could not create Makefile due to some reason, probably lack of
+I, [2014-04-29T09:52:24.037882 #1142]  INFO -- default-centos-65: necessary libraries and/or headers.  Check the mkmf.log file for more
+I, [2014-04-29T09:52:24.037905 #1142]  INFO -- default-centos-65: details.  You may need configuration options.
+I, [2014-04-29T09:52:24.037928 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.037950 #1142]  INFO -- default-centos-65: Provided configuration options:
+I, [2014-04-29T09:52:24.037987 #1142]  INFO -- default-centos-65: 	--with-opt-dir
+I, [2014-04-29T09:52:24.038012 #1142]  INFO -- default-centos-65: 	--with-opt-include
+I, [2014-04-29T09:52:24.038036 #1142]  INFO -- default-centos-65: 	--without-opt-include=${opt-dir}/include
+I, [2014-04-29T09:52:24.038059 #1142]  INFO -- default-centos-65: 	--with-opt-lib
+I, [2014-04-29T09:52:24.038082 #1142]  INFO -- default-centos-65: 	--without-opt-lib=${opt-dir}/lib
+I, [2014-04-29T09:52:24.038105 #1142]  INFO -- default-centos-65: 	--with-make-prog
+I, [2014-04-29T09:52:24.038129 #1142]  INFO -- default-centos-65: 	--without-make-prog
+I, [2014-04-29T09:52:24.038152 #1142]  INFO -- default-centos-65: 	--srcdir=.
+I, [2014-04-29T09:52:24.038175 #1142]  INFO -- default-centos-65: 	--curdir
+I, [2014-04-29T09:52:24.038198 #1142]  INFO -- default-centos-65: 	--ruby=/opt/chef/embedded/bin/ruby
+I, [2014-04-29T09:52:24.038221 #1142]  INFO -- default-centos-65: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:278:in `block in execute': Failed to complete configure task (RuntimeError)
+I, [2014-04-29T09:52:24.038244 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `chdir'
+I, [2014-04-29T09:52:24.038268 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `execute'
+I, [2014-04-29T09:52:24.038291 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:65:in `configure'
+I, [2014-04-29T09:52:24.038315 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:108:in `cook'
+I, [2014-04-29T09:52:24.038339 #1142]  INFO -- default-centos-65: 	from extconf.rb:101:in `block in <main>'
+I, [2014-04-29T09:52:24.038362 #1142]  INFO -- default-centos-65: 	from extconf.rb:119:in `call'
+I, [2014-04-29T09:52:24.038385 #1142]  INFO -- default-centos-65: 	from extconf.rb:119:in `block in <main>'
+I, [2014-04-29T09:52:24.038408 #1142]  INFO -- default-centos-65: 	from extconf.rb:109:in `tap'
+I, [2014-04-29T09:52:24.038431 #1142]  INFO -- default-centos-65: 	from extconf.rb:109:in `<main>'
+I, [2014-04-29T09:52:24.038454 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.038477 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.038500 #1142]  INFO -- default-centos-65: Gem files will remain installed in /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1 for inspection.
+I, [2014-04-29T09:52:24.038524 #1142]  INFO -- default-centos-65: Results logged to /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1/ext/nokogiri/gem_make.out
+I, [2014-04-29T09:52:24.038547 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.038570 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.038592 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.038615 #1142]  INFO -- default-centos-65: Cookbook Trace:[0m
+I, [2014-04-29T09:52:24.038638 #1142]  INFO -- default-centos-65: ---------------[0m
+I, [2014-04-29T09:52:24.038660 #1142]  INFO -- default-centos-65:   /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:22:in `from_file'
+I, [2014-04-29T09:52:24.038683 #1142]  INFO -- default-centos-65:   /tmp/kitchen/cache/cookbooks/dockworker/recipes/create_elasticsearch_image.rb:20:in `from_file'[0m
+I, [2014-04-29T09:52:24.038706 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.038728 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.038751 #1142]  INFO -- default-centos-65: Relevant File Content:[0m
+I, [2014-04-29T09:52:24.038774 #1142]  INFO -- default-centos-65: ----------------------[0m
+I, [2014-04-29T09:52:24.038797 #1142]  INFO -- default-centos-65: /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:
+I, [2014-04-29T09:52:24.038820 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.038843 #1142]  INFO -- default-centos-65:  15:  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+I, [2014-04-29T09:52:24.038874 #1142]  INFO -- default-centos-65:  16:  # See the License for the specific language governing permissions and
+I, [2014-04-29T09:52:24.038899 #1142]  INFO -- default-centos-65:  17:  # limitations under the License.
+I, [2014-04-29T09:52:24.038921 #1142]  INFO -- default-centos-65:  18:  #
+I, [2014-04-29T09:52:24.038943 #1142]  INFO -- default-centos-65:  19:  
+I, [2014-04-29T09:52:24.038966 #1142]  INFO -- default-centos-65:  20:  include_recipe 'build-essential'
+I, [2014-04-29T09:52:24.038989 #1142]  INFO -- default-centos-65:  21:  
+I, [2014-04-29T09:52:24.039011 #1142]  INFO -- default-centos-65:  22>> chef_gem 'chef-metal'
+I, [2014-04-29T09:52:24.039034 #1142]  INFO -- default-centos-65:  23:  chef_gem 'chef-metal-docker' 24:  [0m
+I, [2014-04-29T09:52:24.039057 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.039080 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.039102 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.039125 #1142]  INFO -- default-centos-65: Running handlers:[0m
+I, [2014-04-29T09:52:24.039148 #1142]  INFO -- default-centos-65: [2014-04-29T16:52:23+00:00] ERROR: Running exception handlers
+I, [2014-04-29T09:52:24.039171 #1142]  INFO -- default-centos-65: Running handlers complete
+I, [2014-04-29T09:52:24.039194 #1142]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:52:24.039216 #1142]  INFO -- default-centos-65: [2014-04-29T16:52:23+00:00] ERROR: Exception handlers complete
+I, [2014-04-29T09:52:24.039240 #1142]  INFO -- default-centos-65: [2014-04-29T16:52:23+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-04-29T09:52:24.040568 #1142]  INFO -- default-centos-65: Chef Client failed. 0 resources updated in 48.158248151 seconds[0m
+I, [2014-04-29T09:52:24.110579 #1142]  INFO -- default-centos-65: [2014-04-29T16:52:23+00:00] ERROR: chef_gem[chef-metal] (dockworker::chef_metal line 22) had an error: Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+I, [2014-04-29T09:52:24.110654 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.110691 #1142]  INFO -- default-centos-65:  /opt/chef/embedded/bin/ruby extconf.rb
+I, [2014-04-29T09:52:24.110716 #1142]  INFO -- default-centos-65: Extracting libxml2-2.8.0.tar.gz into tmp//ports/libxml2/2.8.0... OK
+I, [2014-04-29T09:52:24.110741 #1142]  INFO -- default-centos-65: Running 'configure' for libxml2 2.8.0... ERROR, review 'tmp//ports/libxml2/2.8.0/configure.log' to see what happened.
+I, [2014-04-29T09:52:24.110766 #1142]  INFO -- default-centos-65: *** extconf.rb failed ***
+I, [2014-04-29T09:52:24.110791 #1142]  INFO -- default-centos-65: Could not create Makefile due to some reason, probably lack of
+I, [2014-04-29T09:52:24.110815 #1142]  INFO -- default-centos-65: necessary libraries and/or headers.  Check the mkmf.log file for more
+I, [2014-04-29T09:52:24.110840 #1142]  INFO -- default-centos-65: details.  You may need configuration options.
+I, [2014-04-29T09:52:24.110863 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.110887 #1142]  INFO -- default-centos-65: Provided configuration options:
+I, [2014-04-29T09:52:24.110911 #1142]  INFO -- default-centos-65: 	--with-opt-dir
+I, [2014-04-29T09:52:24.110936 #1142]  INFO -- default-centos-65: 	--with-opt-include
+I, [2014-04-29T09:52:24.110960 #1142]  INFO -- default-centos-65: 	--without-opt-include=${opt-dir}/include
+I, [2014-04-29T09:52:24.110985 #1142]  INFO -- default-centos-65: 	--with-opt-lib
+I, [2014-04-29T09:52:24.111008 #1142]  INFO -- default-centos-65: 	--without-opt-lib=${opt-dir}/lib
+I, [2014-04-29T09:52:24.111032 #1142]  INFO -- default-centos-65: 	--with-make-prog
+I, [2014-04-29T09:52:24.111065 #1142]  INFO -- default-centos-65: 	--without-make-prog
+I, [2014-04-29T09:52:24.111088 #1142]  INFO -- default-centos-65: 	--srcdir=.
+I, [2014-04-29T09:52:24.111112 #1142]  INFO -- default-centos-65: 	--curdir
+I, [2014-04-29T09:52:24.111163 #1142]  INFO -- default-centos-65: 	--ruby=/opt/chef/embedded/bin/ruby
+I, [2014-04-29T09:52:24.111188 #1142]  INFO -- default-centos-65: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:278:in `block in execute': Failed to complete configure task (RuntimeError)
+I, [2014-04-29T09:52:24.111213 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `chdir'
+I, [2014-04-29T09:52:24.111237 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `execute'
+I, [2014-04-29T09:52:24.111261 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:65:in `configure'
+I, [2014-04-29T09:52:24.111286 #1142]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:108:in `cook'
+I, [2014-04-29T09:52:24.111310 #1142]  INFO -- default-centos-65: 	from extconf.rb:101:in `block in <main>'
+I, [2014-04-29T09:52:24.111333 #1142]  INFO -- default-centos-65: 	from extconf.rb:119:in `call'
+I, [2014-04-29T09:52:24.111355 #1142]  INFO -- default-centos-65: 	from extconf.rb:119:in `block in <main>'
+I, [2014-04-29T09:52:24.111377 #1142]  INFO -- default-centos-65: 	from extconf.rb:109:in `tap'
+I, [2014-04-29T09:52:24.111400 #1142]  INFO -- default-centos-65: 	from extconf.rb:109:in `<main>'
+I, [2014-04-29T09:52:24.111423 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.111447 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.111471 #1142]  INFO -- default-centos-65: Gem files will remain installed in /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1 for inspection.
+I, [2014-04-29T09:52:24.111495 #1142]  INFO -- default-centos-65: Results logged to /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1/ext/nokogiri/gem_make.out
+I, [2014-04-29T09:52:24.111519 #1142]  INFO -- default-centos-65: 
+I, [2014-04-29T09:52:24.167154 #1142]  INFO -- default-centos-65: [2014-04-29T16:52:23+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2014-04-29T09:52:24.223683 #1142] ERROR -- default-centos-65: Converge failed on instance <default-centos-65>.
+E, [2014-04-29T09:52:24.223791 #1142] ERROR -- default-centos-65: ------Exception-------
+E, [2014-04-29T09:52:24.223824 #1142] ERROR -- default-centos-65: Class: Kitchen::ActionFailed
+E, [2014-04-29T09:52:24.223849 #1142] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-04-29T09:52:24.223872 #1142] ERROR -- default-centos-65: ---Nested Exception---
+E, [2014-04-29T09:52:24.223900 #1142] ERROR -- default-centos-65: Class: Kitchen::SSHFailed
+E, [2014-04-29T09:52:24.223923 #1142] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-04-29T09:52:24.223949 #1142] ERROR -- default-centos-65: ------Backtrace-------
+E, [2014-04-29T09:52:24.223979 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-04-29T09:52:24.224005 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-04-29T09:52:24.224033 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-04-29T09:52:24.224069 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-04-29T09:52:24.224095 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-04-29T09:52:24.224127 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-04-29T09:52:24.224150 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-04-29T09:52:24.224171 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-04-29T09:52:24.224192 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-04-29T09:52:24.224213 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-04-29T09:52:24.224234 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-04-29T09:52:24.224256 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-04-29T09:52:24.224277 #1142] ERROR -- default-centos-65: /opt/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-04-29T09:52:24.224299 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-04-29T09:52:24.224321 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-04-29T09:52:24.224343 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-04-29T09:52:24.224364 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-04-29T09:52:24.224385 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-04-29T09:52:24.224406 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-04-29T09:52:24.224427 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-04-29T09:52:24.224449 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-04-29T09:52:24.224470 #1142] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-04-29T09:52:24.224496 #1142] ERROR -- default-centos-65: ----------------------
+I, [2014-04-29T09:53:20.181603 #1272]  INFO -- default-centos-65: -----> Converging <default-centos-65>...
+I, [2014-04-29T09:53:20.183074 #1272]  INFO -- default-centos-65: Preparing files for transfer
+I, [2014-04-29T09:53:20.183365 #1272]  INFO -- default-centos-65: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-04-29T09:53:24.140671 #1272]  INFO -- default-centos-65: Removing non-cookbook files before transfer
+I, [2014-04-29T09:53:24.444909 #1272]  INFO -- default-centos-65: Transfering files to <default-centos-65>
+I, [2014-04-29T09:53:26.123756 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:25+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-04-29T09:53:26.123832 #1272]  INFO -- default-centos-65:   One version per cookbook
+I, [2014-04-29T09:53:26.123865 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.128543 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:25+00:00] INFO: Forking chef instance to converge...
+I, [2014-04-29T09:53:26.133225 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:25+00:00] WARN: 
+I, [2014-04-29T09:53:26.133282 #1272]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-04-29T09:53:26.133309 #1272]  INFO -- default-centos-65: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-04-29T09:53:26.133333 #1272]  INFO -- default-centos-65: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-04-29T09:53:26.133358 #1272]  INFO -- default-centos-65: attacks.
+I, [2014-04-29T09:53:26.133382 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.133406 #1272]  INFO -- default-centos-65: To fix this issue add an entry like this to your configuration file:
+I, [2014-04-29T09:53:26.133431 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.133454 #1272]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:53:26.133489 #1272]  INFO -- default-centos-65:   # Verify all HTTPS connections (recommended)
+I, [2014-04-29T09:53:26.133514 #1272]  INFO -- default-centos-65:   ssl_verify_mode :verify_peer
+I, [2014-04-29T09:53:26.133538 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.133562 #1272]  INFO -- default-centos-65:   # OR, Verify only connections to chef-server
+I, [2014-04-29T09:53:26.133587 #1272]  INFO -- default-centos-65:   verify_api_cert true
+I, [2014-04-29T09:53:26.133612 #1272]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:53:26.133636 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.133660 #1272]  INFO -- default-centos-65: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-04-29T09:53:26.133684 #1272]  INFO -- default-centos-65: `knife ssl check` command like so:
+I, [2014-04-29T09:53:26.133709 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.133732 #1272]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:53:26.133757 #1272]  INFO -- default-centos-65:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-04-29T09:53:26.133781 #1272]  INFO -- default-centos-65: ```
+I, [2014-04-29T09:53:26.133805 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.133829 #1272]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-04-29T09:53:26.133854 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:26.180398 #1272]  INFO -- default-centos-65: Starting Chef Client, version 11.12.2[0m
+I, [2014-04-29T09:53:26.180468 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:25+00:00] INFO: *** Chef 11.12.2 ***
+I, [2014-04-29T09:53:26.180496 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:25+00:00] INFO: Chef-client pid: 2607
+I, [2014-04-29T09:53:27.610271 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: Setting the run_list to ["recipe[dockworker::chef_metal]", "recipe[dockworker::provisioner]", "recipe[dockworker::create_elasticsearch_image]"] from CLI options
+I, [2014-04-29T09:53:27.613638 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: Run List is [recipe[dockworker::chef_metal], recipe[dockworker::provisioner], recipe[dockworker::create_elasticsearch_image]]
+I, [2014-04-29T09:53:27.613686 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: Run List expands to [dockworker::chef_metal, dockworker::provisioner, dockworker::create_elasticsearch_image]
+I, [2014-04-29T09:53:27.613715 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: Starting Chef Run for default-centos-65
+I, [2014-04-29T09:53:27.613742 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: Running start handlers
+I, [2014-04-29T09:53:27.613768 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: Start handlers complete.
+I, [2014-04-29T09:53:27.621796 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:26+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-65/runs
+I, [2014-04-29T09:53:27.621849 #1272]  INFO -- default-centos-65: resolving cookbooks for run list: ["dockworker::chef_metal", "dockworker::provisioner", "dockworker::create_elasticsearch_image"][0m
+I, [2014-04-29T09:53:30.885713 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:30+00:00] INFO: Loading cookbooks [dockworker@0.1.0, docker@0.34.1, build-essential@2.0.0, apt@2.3.10, aufs@0.1.1, device-mapper@0.1.0, git@4.0.2, golang@1.3.0, homebrew@1.6.0, lxc@1.1.8, modules@0.2.0, runit@1.5.10, sysctl@0.4.0, yum-epel@0.3.6, dmg@2.2.0, windows@1.30.2, yum@3.2.0, dpkg_autostart@0.1.10, chef_handler@1.1.6]
+I, [2014-04-29T09:53:30.900558 #1272]  INFO -- default-centos-65: Synchronizing Cookbooks:[0m
+I, [2014-04-29T09:53:30.928523 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:30+00:00] INFO: Storing updated cookbooks/dockworker/metadata.json in the cache.
+I, [2014-04-29T09:53:30.928588 #1272]  INFO -- default-centos-65:   - dockworker[0m
+I, [2014-04-29T09:53:30.930936 #1272]  INFO -- default-centos-65:   - docker[0m
+I, [2014-04-29T09:53:30.932113 #1272]  INFO -- default-centos-65:   - build-essential[0m
+I, [2014-04-29T09:53:30.933180 #1272]  INFO -- default-centos-65:   - apt[0m
+I, [2014-04-29T09:53:30.935002 #1272]  INFO -- default-centos-65:   - aufs[0m
+I, [2014-04-29T09:53:30.935082 #1272]  INFO -- default-centos-65:   - device-mapper[0m
+I, [2014-04-29T09:53:30.936011 #1272]  INFO -- default-centos-65:   - git[0m
+I, [2014-04-29T09:53:30.936738 #1272]  INFO -- default-centos-65:   - golang[0m
+I, [2014-04-29T09:53:30.939298 #1272]  INFO -- default-centos-65:   - homebrew[0m
+I, [2014-04-29T09:53:30.955232 #1272]  INFO -- default-centos-65:   - lxc[0m
+I, [2014-04-29T09:53:30.956366 #1272]  INFO -- default-centos-65:   - modules[0m
+I, [2014-04-29T09:53:30.957842 #1272]  INFO -- default-centos-65:   - runit[0m
+I, [2014-04-29T09:53:30.957883 #1272]  INFO -- default-centos-65:   - sysctl[0m
+I, [2014-04-29T09:53:30.960062 #1272]  INFO -- default-centos-65:   - yum-epel[0m
+I, [2014-04-29T09:53:30.960100 #1272]  INFO -- default-centos-65:   - dmg[0m
+I, [2014-04-29T09:53:30.962805 #1272]  INFO -- default-centos-65:   - windows[0m
+I, [2014-04-29T09:53:30.964025 #1272]  INFO -- default-centos-65:   - yum[0m
+I, [2014-04-29T09:53:30.964066 #1272]  INFO -- default-centos-65:   - dpkg_autostart[0m
+I, [2014-04-29T09:53:30.965384 #1272]  INFO -- default-centos-65:   - chef_handler[0m
+I, [2014-04-29T09:53:30.965435 #1272]  INFO -- default-centos-65: Compiling Cookbooks...[0m
+I, [2014-04-29T09:53:31.124798 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:30+00:00] INFO: WindowsPackage light-weight resource already initialized -- overriding!
+I, [2014-04-29T09:53:31.174095 #1272]  INFO -- default-centos-65: Recipe: dockworker::chef_metal[0m
+I, [2014-04-29T09:53:31.174164 #1272]  INFO -- default-centos-65:   * chef_gem[chef-metal] action install[0m[2014-04-29T16:53:30+00:00] INFO: Processing chef_gem[chef-metal] action install (dockworker::chef_metal line 22)
+I, [2014-04-29T09:53:55.660803 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.660872 #1272]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:53:55.660899 #1272]  INFO -- default-centos-65: [31mError executing action `install` on resource 'chef_gem[chef-metal]'[0m
+I, [2014-04-29T09:53:55.660925 #1272]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:53:55.660950 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.660975 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.660998 #1272]  INFO -- default-centos-65: Gem::Installer::ExtensionBuildError[0m
+I, [2014-04-29T09:53:55.661023 #1272]  INFO -- default-centos-65: -----------------------------------[0m
+I, [2014-04-29T09:53:55.661047 #1272]  INFO -- default-centos-65: ERROR: Failed to build gem native extension.
+I, [2014-04-29T09:53:55.661071 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.661123 #1272]  INFO -- default-centos-65:  /opt/chef/embedded/bin/ruby extconf.rb
+I, [2014-04-29T09:53:55.661171 #1272]  INFO -- default-centos-65: Extracting libxml2-2.8.0.tar.gz into tmp//ports/libxml2/2.8.0... OK
+I, [2014-04-29T09:53:55.661198 #1272]  INFO -- default-centos-65: Running 'configure' for libxml2 2.8.0... ERROR, review 'tmp//ports/libxml2/2.8.0/configure.log' to see what happened.
+I, [2014-04-29T09:53:55.661223 #1272]  INFO -- default-centos-65: *** extconf.rb failed ***
+I, [2014-04-29T09:53:55.661247 #1272]  INFO -- default-centos-65: Could not create Makefile due to some reason, probably lack of
+I, [2014-04-29T09:53:55.661271 #1272]  INFO -- default-centos-65: necessary libraries and/or headers.  Check the mkmf.log file for more
+I, [2014-04-29T09:53:55.661296 #1272]  INFO -- default-centos-65: details.  You may need configuration options.
+I, [2014-04-29T09:53:55.661320 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.661343 #1272]  INFO -- default-centos-65: Provided configuration options:
+I, [2014-04-29T09:53:55.661367 #1272]  INFO -- default-centos-65: 	--with-opt-dir
+I, [2014-04-29T09:53:55.661391 #1272]  INFO -- default-centos-65: 	--with-opt-include
+I, [2014-04-29T09:53:55.661414 #1272]  INFO -- default-centos-65: 	--without-opt-include=${opt-dir}/include
+I, [2014-04-29T09:53:55.661438 #1272]  INFO -- default-centos-65: 	--with-opt-lib
+I, [2014-04-29T09:53:55.661462 #1272]  INFO -- default-centos-65: 	--without-opt-lib=${opt-dir}/lib
+I, [2014-04-29T09:53:55.661486 #1272]  INFO -- default-centos-65: 	--with-make-prog
+I, [2014-04-29T09:53:55.661510 #1272]  INFO -- default-centos-65: 	--without-make-prog
+I, [2014-04-29T09:53:55.661534 #1272]  INFO -- default-centos-65: 	--srcdir=.
+I, [2014-04-29T09:53:55.661557 #1272]  INFO -- default-centos-65: 	--curdir
+I, [2014-04-29T09:53:55.661581 #1272]  INFO -- default-centos-65: 	--ruby=/opt/chef/embedded/bin/ruby
+I, [2014-04-29T09:53:55.661604 #1272]  INFO -- default-centos-65: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:278:in `block in execute': Failed to complete configure task (RuntimeError)
+I, [2014-04-29T09:53:55.661629 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `chdir'
+I, [2014-04-29T09:53:55.661653 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `execute'
+I, [2014-04-29T09:53:55.661677 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:65:in `configure'
+I, [2014-04-29T09:53:55.661701 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:108:in `cook'
+I, [2014-04-29T09:53:55.661735 #1272]  INFO -- default-centos-65: 	from extconf.rb:101:in `block in <main>'
+I, [2014-04-29T09:53:55.661758 #1272]  INFO -- default-centos-65: 	from extconf.rb:119:in `call'
+I, [2014-04-29T09:53:55.661782 #1272]  INFO -- default-centos-65: 	from extconf.rb:119:in `block in <main>'
+I, [2014-04-29T09:53:55.661805 #1272]  INFO -- default-centos-65: 	from extconf.rb:109:in `tap'
+I, [2014-04-29T09:53:55.661828 #1272]  INFO -- default-centos-65: 	from extconf.rb:109:in `<main>'
+I, [2014-04-29T09:53:55.661851 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.661874 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.661897 #1272]  INFO -- default-centos-65: Gem files will remain installed in /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1 for inspection.
+I, [2014-04-29T09:53:55.661920 #1272]  INFO -- default-centos-65: Results logged to /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1/ext/nokogiri/gem_make.out
+I, [2014-04-29T09:53:55.661943 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.661966 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.661990 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.662013 #1272]  INFO -- default-centos-65: Cookbook Trace:[0m
+I, [2014-04-29T09:53:55.662043 #1272]  INFO -- default-centos-65: ---------------[0m
+I, [2014-04-29T09:53:55.662068 #1272]  INFO -- default-centos-65: /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:22:in `from_file'[0m
+I, [2014-04-29T09:53:55.662092 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.662115 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.662139 #1272]  INFO -- default-centos-65: Resource Declaration:[0m
+I, [2014-04-29T09:53:55.662162 #1272]  INFO -- default-centos-65: ---------------------[0m
+I, [2014-04-29T09:53:55.662185 #1272]  INFO -- default-centos-65: # In /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb
+I, [2014-04-29T09:53:55.662209 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.662232 #1272]  INFO -- default-centos-65:  22: chef_gem 'chef-metal'
+I, [2014-04-29T09:53:55.662255 #1272]  INFO -- default-centos-65:  23: chef_gem 'chef-metal-docker'[0m
+I, [2014-04-29T09:53:55.662279 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.662313 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.662337 #1272]  INFO -- default-centos-65: Compiled Resource:[0m
+I, [2014-04-29T09:53:55.662366 #1272]  INFO -- default-centos-65: ------------------[0m
+I, [2014-04-29T09:53:55.662410 #1272]  INFO -- default-centos-65: # Declared in /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:22:in `from_file'
+I, [2014-04-29T09:53:55.662450 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.662484 #1272]  INFO -- default-centos-65: chef_gem("chef-metal") do
+I, [2014-04-29T09:53:55.662508 #1272]  INFO -- default-centos-65:   provider Chef::Provider::Package::Rubygems
+I, [2014-04-29T09:53:55.662532 #1272]  INFO -- default-centos-65:   action :install
+I, [2014-04-29T09:53:55.662555 #1272]  INFO -- default-centos-65:   retries 0
+I, [2014-04-29T09:53:55.662579 #1272]  INFO -- default-centos-65:   retry_delay 2
+I, [2014-04-29T09:53:55.662602 #1272]  INFO -- default-centos-65:   guard_interpreter :default
+I, [2014-04-29T09:53:55.662625 #1272]  INFO -- default-centos-65:   package_name "chef-metal"
+I, [2014-04-29T09:53:55.662649 #1272]  INFO -- default-centos-65:   version "0.9.4"
+I, [2014-04-29T09:53:55.662672 #1272]  INFO -- default-centos-65:   cookbook_name "dockworker"
+I, [2014-04-29T09:53:55.662695 #1272]  INFO -- default-centos-65:   recipe_name "chef_metal"
+I, [2014-04-29T09:53:55.662718 #1272]  INFO -- default-centos-65: end
+I, [2014-04-29T09:53:55.662741 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.662765 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.662789 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.664390 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.664432 #1272]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:53:55.664458 #1272]  INFO -- default-centos-65: [31mRecipe Compile Error in /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb[0m
+I, [2014-04-29T09:53:55.664483 #1272]  INFO -- default-centos-65: ================================================================================[0m
+I, [2014-04-29T09:53:55.664508 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.664531 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.664555 #1272]  INFO -- default-centos-65: Gem::Installer::ExtensionBuildError[0m
+I, [2014-04-29T09:53:55.664579 #1272]  INFO -- default-centos-65: -----------------------------------[0m
+I, [2014-04-29T09:53:55.664602 #1272]  INFO -- default-centos-65: chef_gem[chef-metal] (dockworker::chef_metal line 22) had an error: Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+I, [2014-04-29T09:53:55.664626 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.664657 #1272]  INFO -- default-centos-65:  /opt/chef/embedded/bin/ruby extconf.rb
+I, [2014-04-29T09:53:55.664682 #1272]  INFO -- default-centos-65: Extracting libxml2-2.8.0.tar.gz into tmp//ports/libxml2/2.8.0... OK
+I, [2014-04-29T09:53:55.664718 #1272]  INFO -- default-centos-65: Running 'configure' for libxml2 2.8.0... ERROR, review 'tmp//ports/libxml2/2.8.0/configure.log' to see what happened.
+I, [2014-04-29T09:53:55.664744 #1272]  INFO -- default-centos-65: *** extconf.rb failed ***
+I, [2014-04-29T09:53:55.664768 #1272]  INFO -- default-centos-65: Could not create Makefile due to some reason, probably lack of
+I, [2014-04-29T09:53:55.664792 #1272]  INFO -- default-centos-65: necessary libraries and/or headers.  Check the mkmf.log file for more
+I, [2014-04-29T09:53:55.664816 #1272]  INFO -- default-centos-65: details.  You may need configuration options.
+I, [2014-04-29T09:53:55.664839 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.664862 #1272]  INFO -- default-centos-65: Provided configuration options:
+I, [2014-04-29T09:53:55.664885 #1272]  INFO -- default-centos-65: 	--with-opt-dir
+I, [2014-04-29T09:53:55.664908 #1272]  INFO -- default-centos-65: 	--with-opt-include
+I, [2014-04-29T09:53:55.664932 #1272]  INFO -- default-centos-65: 	--without-opt-include=${opt-dir}/include
+I, [2014-04-29T09:53:55.664954 #1272]  INFO -- default-centos-65: 	--with-opt-lib
+I, [2014-04-29T09:53:55.664978 #1272]  INFO -- default-centos-65: 	--without-opt-lib=${opt-dir}/lib
+I, [2014-04-29T09:53:55.665001 #1272]  INFO -- default-centos-65: 	--with-make-prog
+I, [2014-04-29T09:53:55.665024 #1272]  INFO -- default-centos-65: 	--without-make-prog
+I, [2014-04-29T09:53:55.665047 #1272]  INFO -- default-centos-65: 	--srcdir=.
+I, [2014-04-29T09:53:55.665070 #1272]  INFO -- default-centos-65: 	--curdir
+I, [2014-04-29T09:53:55.665093 #1272]  INFO -- default-centos-65: 	--ruby=/opt/chef/embedded/bin/ruby
+I, [2014-04-29T09:53:55.665116 #1272]  INFO -- default-centos-65: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:278:in `block in execute': Failed to complete configure task (RuntimeError)
+I, [2014-04-29T09:53:55.665140 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `chdir'
+I, [2014-04-29T09:53:55.665164 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `execute'
+I, [2014-04-29T09:53:55.665188 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:65:in `configure'
+I, [2014-04-29T09:53:55.665212 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:108:in `cook'
+I, [2014-04-29T09:53:55.665235 #1272]  INFO -- default-centos-65: 	from extconf.rb:101:in `block in <main>'
+I, [2014-04-29T09:53:55.665259 #1272]  INFO -- default-centos-65: 	from extconf.rb:119:in `call'
+I, [2014-04-29T09:53:55.665283 #1272]  INFO -- default-centos-65: 	from extconf.rb:119:in `block in <main>'
+I, [2014-04-29T09:53:55.665306 #1272]  INFO -- default-centos-65: 	from extconf.rb:109:in `tap'
+I, [2014-04-29T09:53:55.665329 #1272]  INFO -- default-centos-65: 	from extconf.rb:109:in `<main>'
+I, [2014-04-29T09:53:55.665353 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.665376 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.665399 #1272]  INFO -- default-centos-65: Gem files will remain installed in /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1 for inspection.
+I, [2014-04-29T09:53:55.665423 #1272]  INFO -- default-centos-65: Results logged to /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1/ext/nokogiri/gem_make.out
+I, [2014-04-29T09:53:55.665446 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.665469 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.665492 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.665516 #1272]  INFO -- default-centos-65: Cookbook Trace:[0m
+I, [2014-04-29T09:53:55.665539 #1272]  INFO -- default-centos-65: ---------------[0m
+I, [2014-04-29T09:53:55.665570 #1272]  INFO -- default-centos-65:   /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:22:in `from_file'[0m
+I, [2014-04-29T09:53:55.665595 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.665618 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.665642 #1272]  INFO -- default-centos-65: Relevant File Content:[0m
+I, [2014-04-29T09:53:55.665666 #1272]  INFO -- default-centos-65: ----------------------[0m
+I, [2014-04-29T09:53:55.665689 #1272]  INFO -- default-centos-65: /tmp/kitchen/cache/cookbooks/dockworker/recipes/chef_metal.rb:
+I, [2014-04-29T09:53:55.665713 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.665736 #1272]  INFO -- default-centos-65:  15:  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+I, [2014-04-29T09:53:55.665759 #1272]  INFO -- default-centos-65:  16:  # See the License for the specific language governing permissions and
+I, [2014-04-29T09:53:55.665782 #1272]  INFO -- default-centos-65:  17:  # limitations under the License.
+I, [2014-04-29T09:53:55.665806 #1272]  INFO -- default-centos-65:  18:  #
+I, [2014-04-29T09:53:55.665829 #1272]  INFO -- default-centos-65:  19:  
+I, [2014-04-29T09:53:55.665853 #1272]  INFO -- default-centos-65:  20:  include_recipe 'build-essential'
+I, [2014-04-29T09:53:55.665876 #1272]  INFO -- default-centos-65:  21:  
+I, [2014-04-29T09:53:55.665899 #1272]  INFO -- default-centos-65:  22>> chef_gem 'chef-metal'
+I, [2014-04-29T09:53:55.665922 #1272]  INFO -- default-centos-65:  23:  chef_gem 'chef-metal-docker' 24:  [0m
+I, [2014-04-29T09:53:55.665945 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.665968 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.665991 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.666014 #1272]  INFO -- default-centos-65: Running handlers:[0m
+I, [2014-04-29T09:53:55.666038 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:54+00:00] ERROR: Running exception handlers
+I, [2014-04-29T09:53:55.666061 #1272]  INFO -- default-centos-65: Running handlers complete
+I, [2014-04-29T09:53:55.666085 #1272]  INFO -- default-centos-65: [0m
+I, [2014-04-29T09:53:55.666109 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:54+00:00] ERROR: Exception handlers complete
+I, [2014-04-29T09:53:55.667377 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:54+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-04-29T09:53:55.667415 #1272]  INFO -- default-centos-65: Chef Client failed. 0 resources updated in 29.550411048 seconds[0m
+I, [2014-04-29T09:53:55.731175 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:54+00:00] ERROR: chef_gem[chef-metal] (dockworker::chef_metal line 22) had an error: Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+I, [2014-04-29T09:53:55.731258 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.731300 #1272]  INFO -- default-centos-65:  /opt/chef/embedded/bin/ruby extconf.rb
+I, [2014-04-29T09:53:55.731327 #1272]  INFO -- default-centos-65: Extracting libxml2-2.8.0.tar.gz into tmp//ports/libxml2/2.8.0... OK
+I, [2014-04-29T09:53:55.731352 #1272]  INFO -- default-centos-65: Running 'configure' for libxml2 2.8.0... ERROR, review 'tmp//ports/libxml2/2.8.0/configure.log' to see what happened.
+I, [2014-04-29T09:53:55.731379 #1272]  INFO -- default-centos-65: *** extconf.rb failed ***
+I, [2014-04-29T09:53:55.731403 #1272]  INFO -- default-centos-65: Could not create Makefile due to some reason, probably lack of
+I, [2014-04-29T09:53:55.731429 #1272]  INFO -- default-centos-65: necessary libraries and/or headers.  Check the mkmf.log file for more
+I, [2014-04-29T09:53:55.731455 #1272]  INFO -- default-centos-65: details.  You may need configuration options.
+I, [2014-04-29T09:53:55.731479 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.731503 #1272]  INFO -- default-centos-65: Provided configuration options:
+I, [2014-04-29T09:53:55.731526 #1272]  INFO -- default-centos-65: 	--with-opt-dir
+I, [2014-04-29T09:53:55.731578 #1272]  INFO -- default-centos-65: 	--with-opt-include
+I, [2014-04-29T09:53:55.731605 #1272]  INFO -- default-centos-65: 	--without-opt-include=${opt-dir}/include
+I, [2014-04-29T09:53:55.731629 #1272]  INFO -- default-centos-65: 	--with-opt-lib
+I, [2014-04-29T09:53:55.731653 #1272]  INFO -- default-centos-65: 	--without-opt-lib=${opt-dir}/lib
+I, [2014-04-29T09:53:55.731678 #1272]  INFO -- default-centos-65: 	--with-make-prog
+I, [2014-04-29T09:53:55.731703 #1272]  INFO -- default-centos-65: 	--without-make-prog
+I, [2014-04-29T09:53:55.731727 #1272]  INFO -- default-centos-65: 	--srcdir=.
+I, [2014-04-29T09:53:55.731751 #1272]  INFO -- default-centos-65: 	--curdir
+I, [2014-04-29T09:53:55.731775 #1272]  INFO -- default-centos-65: 	--ruby=/opt/chef/embedded/bin/ruby
+I, [2014-04-29T09:53:55.731800 #1272]  INFO -- default-centos-65: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:278:in `block in execute': Failed to complete configure task (RuntimeError)
+I, [2014-04-29T09:53:55.731825 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `chdir'
+I, [2014-04-29T09:53:55.731850 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:270:in `execute'
+I, [2014-04-29T09:53:55.731874 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:65:in `configure'
+I, [2014-04-29T09:53:55.731899 #1272]  INFO -- default-centos-65: 	from /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/mini_portile-0.5.3/lib/mini_portile.rb:108:in `cook'
+I, [2014-04-29T09:53:55.731925 #1272]  INFO -- default-centos-65: 	from extconf.rb:101:in `block in <main>'
+I, [2014-04-29T09:53:55.731949 #1272]  INFO -- default-centos-65: 	from extconf.rb:119:in `call'
+I, [2014-04-29T09:53:55.731974 #1272]  INFO -- default-centos-65: 	from extconf.rb:119:in `block in <main>'
+I, [2014-04-29T09:53:55.731997 #1272]  INFO -- default-centos-65: 	from extconf.rb:109:in `tap'
+I, [2014-04-29T09:53:55.732020 #1272]  INFO -- default-centos-65: 	from extconf.rb:109:in `<main>'
+I, [2014-04-29T09:53:55.732044 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.732067 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.732090 #1272]  INFO -- default-centos-65: Gem files will remain installed in /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1 for inspection.
+I, [2014-04-29T09:53:55.732116 #1272]  INFO -- default-centos-65: Results logged to /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.1/ext/nokogiri/gem_make.out
+I, [2014-04-29T09:53:55.732140 #1272]  INFO -- default-centos-65: 
+I, [2014-04-29T09:53:55.783390 #1272]  INFO -- default-centos-65: [2014-04-29T16:53:54+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2014-04-29T09:53:55.836753 #1272] ERROR -- default-centos-65: Converge failed on instance <default-centos-65>.
+E, [2014-04-29T09:53:55.836883 #1272] ERROR -- default-centos-65: ------Exception-------
+E, [2014-04-29T09:53:55.836912 #1272] ERROR -- default-centos-65: Class: Kitchen::ActionFailed
+E, [2014-04-29T09:53:55.836936 #1272] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-04-29T09:53:55.836958 #1272] ERROR -- default-centos-65: ---Nested Exception---
+E, [2014-04-29T09:53:55.836981 #1272] ERROR -- default-centos-65: Class: Kitchen::SSHFailed
+E, [2014-04-29T09:53:55.837003 #1272] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-04-29T09:53:55.837025 #1272] ERROR -- default-centos-65: ------Backtrace-------
+E, [2014-04-29T09:53:55.837050 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-04-29T09:53:55.837081 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-04-29T09:53:55.837105 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-04-29T09:53:55.837127 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-04-29T09:53:55.837148 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-04-29T09:53:55.837171 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-04-29T09:53:55.837193 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-04-29T09:53:55.837215 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-04-29T09:53:55.837249 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-04-29T09:53:55.837271 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-04-29T09:53:55.837292 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-04-29T09:53:55.837315 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-04-29T09:53:55.837337 #1272] ERROR -- default-centos-65: /opt/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-04-29T09:53:55.837358 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-04-29T09:53:55.837379 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-04-29T09:53:55.837401 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-04-29T09:53:55.837425 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-04-29T09:53:55.837446 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-04-29T09:53:55.837468 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-04-29T09:53:55.837489 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-04-29T09:53:55.837510 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-04-29T09:53:55.837532 #1272] ERROR -- default-centos-65: /Users/michaelgoetz/.gem/ruby/1.9.3/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-04-29T09:53:55.837553 #1272] ERROR -- default-centos-65: ----------------------
