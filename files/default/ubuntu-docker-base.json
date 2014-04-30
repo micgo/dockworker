@@ -1,0 +1,34 @@
+{
+  "builders": [
+    {
+      "type": "docker",
+      "image": "ubuntu",
+      "export_path": "ubuntu_base.tar"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": ["sudo apt-get update",
+                "sudo apt-get -y install curl",
+                "cd /tmp",
+                "curl -LO https://www.getchef.com/chef/install.sh && sudo bash ./install.sh -v 11.12.4",
+                "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
+                "git clone https://github.com/micgo/dockworker.git /tmp/cookbooks/dockworker",
+                "cd /tmp/cookbooks/dockworker",
+                "/opt/chef/embedded/bin/berks install --path /tmp/cookbooks"
+      ]
+    },
+    {
+      "type": "chef-solo",
+      "cookbook_paths": ["/tmp/cookbooks"],
+      "json": {
+        "name": "ubuntu_base",
+        "run_list": [
+          "recipe[supervisor]",
+          "recipe[dockworker::base_image]"
+        ]
+      }
+    }
+  ]
+}
