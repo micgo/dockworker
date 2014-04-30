@@ -13,7 +13,7 @@
                 "sudo apt-get -y install curl",
                 "sudo apt-get install git-core",
                 "cd /tmp",
-                "curl -LO https://www.getchef.com/chef/install.sh && sudo bash ./install.sh -v 11.12.2",
+                "curl -L https://www.opscode.com/chef/install.sh | sudo bash",
                 "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
                 "git clone https://github.com/micgo/dockworker.git /tmp/cookbooks/dockworker",
                 "cd /tmp/cookbooks/dockworker",
