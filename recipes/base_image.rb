@@ -20,6 +20,14 @@
 include_recipe 'docker'
 include_recipe 'packer'
 
+directory "/tmp/cookbooks" do
+  owner "root"
+  group "root"
+  mode "0755"
+  action :create
+end
+
+
 cookbook_file "#{Chef::Config[:file_cache_path]}/ubuntu-docker-base.json" do
   source "ubuntu-docker-base.json"
   owner "root"
