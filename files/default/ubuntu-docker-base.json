@@ -12,7 +12,7 @@
       "inline": ["sudo apt-get update",
                 "sudo apt-get -y install curl",
                 "cd /tmp",
-                "curl -LO https://www.getchef.com/chef/install.sh && sudo bash ./install.sh -v 11.12.4",
+                "curl -LO https://www.getchef.com/chef/install.sh && sudo bash ./install.sh -v 11.12.2",
                 "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
                 "git clone https://github.com/micgo/dockworker.git /tmp/cookbooks/dockworker",
                 "cd /tmp/cookbooks/dockworker",
