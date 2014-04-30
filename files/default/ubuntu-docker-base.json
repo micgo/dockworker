@@ -9,11 +9,25 @@
   "provisioners": [
     {
       "type": "shell",
+      "name": "shell-setup",
       "inline": ["sudo apt-get update",
-                "sudo apt-get -y install curl",
-                "sudo apt-get install git-core",
+                "sudo apt-get -y install curl"
+      ]
+    },
+    {
+      "type": "chef-solo",
+      "name": "chef-image-prep",
+      "cookbook_paths": ["/tmp/cookbooks"],
+      "json": {
+        "name": "ubuntu_base",
+        "run_list": []
+      }
+    },
+    {
+      "type": "shell",
+      "name": "shell-cookbook-load",
+      "inline": ["sudo apt-get install git-core",
                 "cd /tmp",
-                "curl -L https://www.opscode.com/chef/install.sh | sudo bash",
                 "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
                 "git clone https://github.com/micgo/dockworker.git /tmp/cookbooks/dockworker",
                 "cd /tmp/cookbooks/dockworker",
@@ -22,6 +36,7 @@
     },
     {
       "type": "chef-solo",
+      "name": "chef-image-build",
       "cookbook_paths": ["/tmp/cookbooks"],
       "json": {
         "name": "ubuntu_base",
