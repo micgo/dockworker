@@ -22,7 +22,7 @@ include_recipe 'docker'
 docker_registry 'https://index.docker.io/v1/' do
   email 'mpgoetz@gmail.com'
   username 'micgo'
-  password 'iAyFQjv3xLQ8jt'
+  password node['dockworker']['registry_password']
 end
 
 docker_image 'ubuntu' do
