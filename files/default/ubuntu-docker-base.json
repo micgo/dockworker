@@ -11,7 +11,7 @@
       "type": "shell",
       "inline": ["sudo apt-get update",
                 "sudo apt-get -y install curl",
-                "sudo apt-get install git-core",
+                "sudo apt-get -y install git-core",
                 "cd /var/chef/cache",
                 "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
                 "git clone https://github.com/micgo/dockworker.git /var/chef/cache/cookbooks/dockworker",
