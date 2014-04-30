@@ -20,7 +20,7 @@
 include_recipe 'docker'
 include_recipe 'packer'
 
-directory "/tmp/cookbooks" do
+directory "#{Chef::Config[:file_cache_path]}/cookbooks" do
   owner "root"
   group "root"
   mode "0755"
