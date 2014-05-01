@@ -12,11 +12,7 @@
       "inline": ["sudo apt-get update",
                 "sudo apt-get -y install curl",
                 "sudo apt-get -y install git-core",
-                "cd /var/chef/cache",
-                "sudo /opt/chef/embedded/bin/gem install berkshelf --no-ri --no-rdoc",
-                "git clone https://github.com/micgo/dockworker.git /var/chef/cache/cookbooks/dockworker",
-                "cd /var/chef/cache/cookbooks/dockworker",
-                "/opt/chef/embedded/bin/berks install --path /var/chef/cache/cookbooks"
+                "git clone https://github.com/micgo/dockworker.git /var/chef/cache/cookbooks/dockworker"
       ]
     },
     {
@@ -25,8 +21,8 @@
       "json": {
         "name": "ubuntu_base",
         "run_list": [
-          "recipe[supervisor]",
-          "recipe[dockworker::base_image]"
+          "recipe[dockworker::base_image]",
+          "recipe[supervisor]"
         ]
       }
     }

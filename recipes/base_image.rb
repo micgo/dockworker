@@ -27,6 +27,12 @@ directory "#{Chef::Config[:file_cache_path]}/cookbooks" do
   action :create
 end
 
+chef_gem 'berkshelf'
+
+execute 'Install dependent cookbooks for dockworker' do
+  cwd '/var/chef/cache/cookbooks/dockworker'
+  command '/opt/chef/embedded/bin/berks install --path /var/chef/cache/cookbooks'
+end
 
 cookbook_file "#{Chef::Config[:file_cache_path]}/ubuntu-docker-base.json" do
   source "ubuntu-docker-base.json"
