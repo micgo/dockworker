@@ -10,9 +10,7 @@
     {
       "type": "shell",
       "inline": ["sudo apt-get update",
-                "sudo apt-get -y install curl",
-                "sudo apt-get -y install git-core",
-                "git clone https://github.com/micgo/dockworker.git /var/chef/cache/cookbooks/dockworker"
+                "sudo apt-get -y install curl"
       ]
     },
     {
