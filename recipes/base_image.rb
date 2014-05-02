@@ -20,18 +20,17 @@
 include_recipe 'docker'
 include_recipe 'packer'
 
-directory "#{Chef::Config[:file_cache_path]}/cookbooks" do
-  owner "root"
-  group "root"
-  mode "0755"
-  action :create
-end
-
 chef_gem 'berkshelf'
 
+git "#{Chef::Config[:file_cache_path]}/dockworker" do
+  repository "https://github.com:micgo/dockworker.git"
+  reference "master"
+  action :sync
+end
+
 execute 'Install dependent cookbooks for dockworker' do
-  cwd '/var/chef/cache/cookbooks/dockworker'
-  command '/opt/chef/embedded/bin/berks vendor /var/chef/cache/cookbooks'
+  cwd '/var/chef/cache/dockworker'
+  command "/opt/chef/embedded/bin/berks vendor #{Chef::Config[:file_cache_path]}/cookbooks"
 end
 
 cookbook_file "#{Chef::Config[:file_cache_path]}/ubuntu-docker-base.json" do
