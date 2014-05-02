@@ -23,7 +23,7 @@ include_recipe 'packer'
 chef_gem 'berkshelf'
 
 git "#{Chef::Config[:file_cache_path]}/dockworker" do
-  repository "https://github.com:micgo/dockworker.git"
+  repository "https://github.com/micgo/dockworker.git"
   reference "master"
   action :sync
 end
