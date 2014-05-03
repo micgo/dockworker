@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: dockworker
-# Recipe:: chef_metal
+# Recipe:: run_containers
 #
 # Copyright 2012-2014, Chef Software, Inc.
 #
@@ -17,7 +17,6 @@
 # limitations under the License.
 #
 
-include_recipe_now 'build-essential'
-
-chef_gem 'chef-metal'
-chef_gem 'chef-metal-docker'
+execute 'sudo docker run --detach=true --name="memcached_img" --publish="45001:11211" memcached_img' do
+  not_if 'docker ps | grep -qa memcached'
+end

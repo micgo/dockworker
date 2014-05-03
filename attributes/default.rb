@@ -1,1 +1,0 @@
-default['dockworker']['nodes'] = 1

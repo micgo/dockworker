@@ -18,35 +18,21 @@
 #
 
 include_recipe 'docker'
-include_recipe 'packer'
 
-# chef_gem 'berkshelf'
-
-# git "#{Chef::Config[:file_cache_path]}/dockworker" do
-#   repository "https://github.com/micgo/dockworker.git"
-#   reference "master"
-#   action :sync
-# end
-
-# execute 'Install dependent cookbooks for dockworker' do
-#   cwd '/var/chef/cache/dockworker'
-#   command "/opt/chef/embedded/bin/berks vendor #{Chef::Config[:file_cache_path]}/cookbooks"
-# end
-
-cookbook_file "#{Chef::Config[:file_cache_path]}/ubuntu-docker-base.json" do
-  source "ubuntu-docker-base.json"
+cookbook_file "#{Chef::Config[:file_cache_path]}/Dockerfile" do
+  source "Dockerfile"
   owner "root"
   group "root"
   mode "0644"
 end
 
-execute 'Create ubuntu base image' do
-  cwd "#{Chef::Config[:file_cache_path]}"
-  command 'packer build ubuntu-docker-base.json'
-  not_if ::File.exists?("#{Chef::Config[:file_cache_path]}/ubuntu_base.tar")
+docker_image 'memcached_img' do
+  tag 'latest'
+  source "#{Chef::Config[:file_cache_path]}/Dockerfile"
+  action :build_if_missing
 end
 
-docker_image 'elasticsearch_base' do
-  source "#{Chef::Config[:file_cache_path]}/ubuntu_base.tar"
-  action :import
+docker_image 'micgo/memcached_img' do
+  tag 'latest'
+  action :push
 end

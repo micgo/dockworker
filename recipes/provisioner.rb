@@ -19,12 +19,17 @@
 
 include_recipe 'docker'
 
+package "linux-image-extra-#{node[:kernel][:release]}" do
+  notifies :restart, 'service[docker]', :immediately
+end
+
 registry_password = Chef::EncryptedDataBagItem.load("docker", "auth")
 
 docker_registry 'https://index.docker.io/v1/' do
   email 'mpgoetz@gmail.com'
   username 'micgo'
   password registry_password['registry_pwd']
+  cmd_timeout 360
 end
 
 docker_image 'ubuntu' do

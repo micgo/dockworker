@@ -19,10 +19,19 @@
       "json": {
         "name": "ubuntu_base",
         "run_list": [
-          "recipe[dockworker::base_image]",
-          "recipe[supervisor]"
+          "recipe[dockworker::apache]"
         ]
       }
     }
-  ]
+  ],
+    "post-processors": [
+        [
+        {
+            "type": "docker-import",
+            "repository": "micgo/apache2",
+            "tag": "0.1"
+        },
+        "docker-push"
+    ]
+]
 }
