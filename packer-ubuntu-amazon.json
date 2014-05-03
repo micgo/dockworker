@@ -1,0 +1,51 @@
+{
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "region": "us-east-1",
+      "source_ami": "ami-951524fc",
+      "instance_type": "m3.medium",
+      "ssh_username": "ubuntu",
+      "ssh_timeout": "1440m",
+      "ami_name": "packer-ubuntu-docker {{timestamp}}",
+      "ami_block_device_mappings": [
+          {
+              "device_name": "/dev/sda1",
+              "volume_size": 40,
+              "delete_on_termination": true
+          }
+      ],
+      "launch_block_device_mappings": [
+        {
+            "device_name": "/dev/sda1",
+            "volume_size": 40,
+            "delete_on_termination": true
+        },
+        {
+            "device_name": "/dev/sdb",
+            "virtual_name": "ephemeral0"
+        }
+      ]
+    } 
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": ["sudo apt-get update",
+                "sudo apt-get -y install curl"
+      ]
+    },
+    {
+      "type": "chef-solo",
+      "cookbook_paths": ["cookbooks"],
+      "data_bags_path": "data_bags",
+      "encrypted_data_bag_secret_path": "/Users/michaelgoetz/.chef/encrypted_data_bag_secret",
+      "json": {
+        "name": "ubuntu_base",
+        "run_list": [
+          "recipe[dockworker::provisioner]"
+        ]
+      }
+    }
+  ]
+}
